@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">WechatDemo</string>
-<string name="login">登陆</string>
-<string name="registry">注册</string>
-    <string name="language">语言</string>
-    <string name="language_setting">多语言</string>
-    <string name="save">保存</string>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">登陆</string>
+	<string name="registry">注册</string>
+	<string name="language">语言</string>
+	<string name="language_setting">多语言</string>
+	<string name="save">保存</string>
+
 </resources>

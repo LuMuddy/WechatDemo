@@ -4,14 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
-import top.muddy.wechatdemo.R;
+import muddy.top.wechatdemo.Application.BaseActivity;
+import muddy.top.wechatdemo.R;
 
-public class DisplayActivity extends AppCompatActivity implements View.OnClickListener {
+public class DisplayActivity extends BaseActivity implements View.OnClickListener {
     private Button bt_login,bt_registry,bt_language;
     private RelativeLayout rl_all;
     private Handler handler=new Handler(){
@@ -64,4 +64,5 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
 
         }
     }
-}
+
+ }
