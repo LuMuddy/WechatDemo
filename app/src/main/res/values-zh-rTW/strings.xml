@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">登陸</string>
+	<string name="registry">註冊</string>
+	<string name="language">語言</string>
+	<string name="language_setting">多語言</string>
+	<string name="save">保存</string>
+
+</resources>

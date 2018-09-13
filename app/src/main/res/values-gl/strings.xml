@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Aterrizaxe</string>
+	<string name="registry">Rexistro</string>
+	<string name="language">Linguaxe</string>
+	<string name="language_setting">Multilingüe</string>
+	<string name="save">Gardar</string>
+
+</resources>

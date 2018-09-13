@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Landing</string>
+	<string name="registry">Skráning</string>
+	<string name="language">Tungumál</string>
+	<string name="language_setting">Fjöltyng</string>
+	<string name="save">Vista</string>
+
+</resources>

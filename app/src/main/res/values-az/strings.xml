@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Açılış</string>
+	<string name="registry">Qeydiyyat</string>
+	<string name="language">Dil</string>
+	<string name="language_setting">Çoxdilli</string>
+	<string name="save">Saxla</string>
+
+</resources>
