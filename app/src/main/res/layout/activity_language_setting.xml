@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_height"
+        android:background="@color/titleblack" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/interval"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rl_head"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:background="@color/titleblack">
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10sp"
+                />
+            <TextView
+                android:layout_toRightOf="@+id/iv_back"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_setting"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/bt_save"
+                android:background="@null"
+                android:textColor="@color/savecolor"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/save"/>
+        </RelativeLayout>
+        <ListView
+            android:id="@+id/lv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_head"
+            android:layout_marginTop="20sp"></ListView>
+    </RelativeLayout>
+</LinearLayout>

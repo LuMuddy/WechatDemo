@@ -1,13 +1,17 @@
-package muddy.top.wechatdemo;
+package muddy.top.wechatdemo.Activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import muddy.top.wechatdemo.Application.BaseActivity;
+import muddy.top.wechatdemo.R;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
 }

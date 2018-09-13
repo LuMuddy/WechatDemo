@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/splashlogo" />
+    <RelativeLayout
+        android:id="@+id/rl_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:visibility="invisible"
+        >
+        <Button
+            android:id="@+id/bt_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="@string/language"
+            android:textColor="@color/white"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:id="@+id/bt_login"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="@string/login"
+                android:background="@drawable/bt_lime_shape"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                />
+
+            <Button
+                android:id="@+id/bt_registry"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textColor="@color/darkgray"
+                android:layout_weight="1"
+                android:text="@string/registry"
+                android:background="@drawable/bt_white_shape"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
