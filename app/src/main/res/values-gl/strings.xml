@@ -7,5 +7,22 @@
 	<string name="language">Linguaxe</string>
 	<string name="language_setting">Multilingüe</string>
 	<string name="save">Gardar</string>
+	<string name="cityphone">China (+86)</string>
+	<string name="citytext">País</string>
+	<string name="phonelogin">Entrada de número de teléfono móbil</string>
+	<string name="phone">Número de teléfono móbil</string>
+	<string name="fillphone">Complete o número de teléfono</string>
+	<string name="fillpwd">Encha o contrasinal</string>
+	<string name="pwd">Contrasinal</string>
+	<string name="next">O seguinte paso</string>
+	<string name="loginStatic">Iniciar sesión con micro sinal / número QQ / correo electrónico</string>
+	<string name="RetrievePassword">Recuperar o contrasinal</string>
+	<string name="EmergencyFreeze">Conxelación de emerxencia</string>
+	<string name="SecurityCenter">Centro de seguridade de WeChat</string>
+	<string name="editphone">Encha o número de teléfono</string>
+	<string name="copyright">Ao facer clic no botón "Rexistrar" de arriba, acepta o Acordo de licenza e servizo de Tencent WeChat Software e as Directrices de protección de privacidade de Tencent.</string>
+	<string name="nickname">Alcume</string>
+	<string name="registrytitle">Encha o número de teléfono</string>
+	<string name="NicknameExample">Por exemplo: Chen Chen</string>
 
 </resources>

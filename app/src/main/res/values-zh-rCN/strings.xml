@@ -7,5 +7,22 @@
 	<string name="language">语言</string>
 	<string name="language_setting">多语言</string>
 	<string name="save">保存</string>
+	<string name="cityphone">中国(+86)</string>
+	<string name="citytext">国家/地区</string>
+	<string name="phonelogin">手机号登录</string>
+	<string name="phone">手机号</string>
+	<string name="fillphone">请填写手机号</string>
+	<string name="fillpwd">请填写密码</string>
+	<string name="pwd">密码</string>
+	<string name="next">下一步</string>
+	<string name="loginStatic">用微信号/QQ号/邮箱登录</string>
+	<string name="RetrievePassword">找回密码</string>
+	<string name="EmergencyFreeze">紧急冻结</string>
+	<string name="SecurityCenter">微信安全中心</string>
+	<string name="editphone">请填写手机号码</string>
+	<string name="copyright">点击上面的"注册"按钮，即表示你同意《腾讯微信软件许可及服务协议》和《腾讯隐私保护指引》</string>
+	<string name="nickname">昵称</string>
+	<string name="registrytitle">填写手机号</string>
+	<string name="NicknameExample">例如：陈晨</string>
 
 </resources>

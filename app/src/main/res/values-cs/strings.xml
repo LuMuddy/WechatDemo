@@ -7,5 +7,22 @@
 	<string name="language">Jazyk</string>
 	<string name="language_setting">Vícejazyčný</string>
 	<string name="save">Uložit</string>
+	<string name="cityphone">Čína (+86)</string>
+	<string name="citytext">Země</string>
+	<string name="phonelogin">Přihlášení k mobilnímu číslu</string>
+	<string name="phone">Číslo mobilního telefonu</string>
+	<string name="fillphone">Vyplňte prosím telefonní číslo</string>
+	<string name="fillpwd">Prosím, vyplňte heslo</string>
+	<string name="pwd">Heslo</string>
+	<string name="next">Další krok</string>
+	<string name="loginStatic">Přihlaste se pomocí mikro signálu / čísla QQ / e-mailu</string>
+	<string name="RetrievePassword">Načíst heslo</string>
+	<string name="EmergencyFreeze">Nouzové zmrazení</string>
+	<string name="SecurityCenter">WeChat Security Center</string>
+	<string name="editphone">Vyplňte číslo mobilního telefonu</string>
+	<string name="copyright">Kliknutím na tlačítko "Registrace" výše souhlasíte s licenční smlouvou o softwaru Tencent WeChat a smlouvou o poskytování služeb a směrnicemi o ochraně soukromí společnosti Tencent.</string>
+	<string name="nickname">Přezdívka</string>
+	<string name="registrytitle">Vyplňte telefonní číslo</string>
+	<string name="NicknameExample">Například: Chen Chen</string>
 
 </resources>

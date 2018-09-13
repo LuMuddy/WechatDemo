@@ -7,5 +7,22 @@
 	<string name="language">taal</string>
 	<string name="language_setting">Multi-taal</string>
 	<string name="save">Save</string>
+	<string name="cityphone">China (+86)</string>
+	<string name="citytext">Land / Streek</string>
+	<string name="phonelogin">Mobiele nommer login</string>
+	<string name="phone">Selfoonnommer</string>
+	<string name="fillphone">Vul asseblief die telefoonnommer in</string>
+	<string name="fillpwd">Vul asseblief die wagwoord in</string>
+	<string name="pwd">wagwoord</string>
+	<string name="next">Volgende stap</string>
+	<string name="loginStatic">Teken in met mikrosein / QQ nommer / e-pos</string>
+	<string name="RetrievePassword">Herwin wagwoord</string>
+	<string name="EmergencyFreeze">Noodvries</string>
+	<string name="SecurityCenter">WeChat Security Center</string>
+	<string name="editphone">Vul asseblief die selfoonnommer in</string>
+	<string name="copyright">Deur op die "Register" -knoppie hierbo te klik, stem jy in tot die Tencent WeChat-sagteware lisensie en diensooreenkoms en Tencent Privaatheidsbeskermriglyne.</string>
+	<string name="nickname">bynaam</string>
+	<string name="registrytitle">Vul die telefoonnommer in</string>
+	<string name="NicknameExample">Byvoorbeeld: Chen Chen</string>
 
 </resources>

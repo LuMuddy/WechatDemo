@@ -7,5 +7,22 @@
 	<string name="language">언어</string>
 	<string name="language_setting">다국어</string>
 	<string name="save">저장</string>
+	<string name="cityphone">중국 (+86)</string>
+	<string name="citytext">국가</string>
+	<string name="phonelogin">휴대 전화 번호 로그인</string>
+	<string name="phone">휴대 전화 번호</string>
+	<string name="fillphone">전화 번호를 기입하십시오.</string>
+	<string name="fillpwd">비밀번호를 입력하십시오.</string>
+	<string name="pwd">비밀번호</string>
+	<string name="next">다음 단계</string>
+	<string name="loginStatic">마이크로 신호 / QQ 번호 / 전자 메일로 로그인하십시오.</string>
+	<string name="RetrievePassword">비밀번호 검색</string>
+	<string name="EmergencyFreeze">비상 동결</string>
+	<string name="SecurityCenter">WeChat 보안 센터</string>
+	<string name="editphone">휴대 전화 번호를 입력하십시오.</string>
+	<string name="copyright">위의 "등록"버튼을 클릭하면 Tencent WeChat 소프트웨어 라이센스 및 서비스 계약 및 Tencent 개인 정보 보호 지침에 동의하게됩니다.</string>
+	<string name="nickname">별명</string>
+	<string name="registrytitle">전화 번호를 입력하십시오.</string>
+	<string name="NicknameExample">예 : Chen Chen</string>
 
 </resources>

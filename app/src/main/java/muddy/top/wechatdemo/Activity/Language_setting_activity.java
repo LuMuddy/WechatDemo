@@ -19,7 +19,7 @@ import muddy.top.wechatdemo.Utils.ShareUtils;
 import muddy.top.wechatdemo.Utils.StaticClass;
 
 
-public class Language_setting extends BaseActivity implements View.OnClickListener {
+public class Language_setting_activity extends BaseActivity implements View.OnClickListener {
     private ImageView iv_back;
     private Button bt_save;
     private ListView lv_language;

@@ -7,5 +7,22 @@
 	<string name="language">Dil</string>
 	<string name="language_setting">Çoxdilli</string>
 	<string name="save">Saxla</string>
+	<string name="cityphone">Çin (+86)</string>
+	<string name="citytext">Ölkə</string>
+	<string name="phonelogin">Mobil nömrə girişi</string>
+	<string name="phone">Mobil telefon nömrəsi</string>
+	<string name="fillphone">Xahiş edirik telefon nömrəsini doldurun</string>
+	<string name="fillpwd">Şifrəni doldurun</string>
+	<string name="pwd">Şifrə</string>
+	<string name="next">Növbəti addım</string>
+	<string name="loginStatic">Mikro siqnal / QQ nömrəsi / e-poçt ilə daxil olun</string>
+	<string name="RetrievePassword">Şifrəni bərpa edin</string>
+	<string name="EmergencyFreeze">Təcili dondurma</string>
+	<string name="SecurityCenter">WeChat Təhlükəsizlik Mərkəzi</string>
+	<string name="editphone">Mobil nömrənizi doldurun</string>
+	<string name="copyright">Yuxarıdakı "Qeydiyyat" düyməsinə tıklayarak, Tencent WeChat Software Lisenziya və Xidmət Konvensiyasını və Tencent Gizlilik Qorunma Təlimatlarını qəbul edirsiniz.</string>
+	<string name="nickname">İstifadəçi adı</string>
+	<string name="registrytitle">Telefon nömrəsini doldurun</string>
+	<string name="NicknameExample">Məsələn: Chen Chen</string>
 
 </resources>

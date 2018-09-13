@@ -7,5 +7,22 @@
 	<string name="language">мова</string>
 	<string name="language_setting">шматмоўная</string>
 	<string name="save">захаваць</string>
+	<string name="cityphone">Кітай (+86)</string>
+	<string name="citytext">Краіна / Рэгіён</string>
+	<string name="phonelogin">Нумар тэлефона Увайсці</string>
+	<string name="phone">тэлефон</string>
+	<string name="fillphone">Запоўніце, калі ласка, нумар тэлефона</string>
+	<string name="fillpwd">Запоўніце, калі ласка, пароль</string>
+	<string name="pwd">пароль</string>
+	<string name="next">наступны крок</string>
+	<string name="loginStatic">Micro сігнал / нумар QQ / Email Увайсці</string>
+	<string name="RetrievePassword">забыліся пароль</string>
+	<string name="EmergencyFreeze">аварыйнае замарожванне</string>
+	<string name="SecurityCenter">Micro ліст Цэнтр бяспекі</string>
+	<string name="editphone">Запоўніце, калі ласка, нумар мабільнага тэлефона</string>
+	<string name="copyright">Націсніце на кнопку «Рэгістрацыя», вы згаджаецеся, што «Tencent мікра-канал ліцэнзіі і паслугі пагадненне на праграмнае забеспячэнне» і «Tencent прынцыпы прыватнасці.»</string>
+	<string name="nickname">мянушка</string>
+	<string name="registrytitle">Калі ласка, увядзіце нумар тэлефона</string>
+	<string name="NicknameExample">Напрыклад: Chen Chen</string>
 
 </resources>

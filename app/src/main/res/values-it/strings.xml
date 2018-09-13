@@ -7,5 +7,22 @@
 	<string name="language">lingua</string>
 	<string name="language_setting">Multi-language</string>
 	<string name="save">Salva</string>
+	<string name="cityphone">Cina (+86)</string>
+	<string name="citytext">Paese / Regione</string>
+	<string name="phonelogin">Login per il numero di cellulare</string>
+	<string name="phone">Numero di cellulare</string>
+	<string name="fillphone">Si prega di compilare il numero di telefono</string>
+	<string name="fillpwd">Si prega di inserire la password</string>
+	<string name="pwd">password</string>
+	<string name="next">Prossimo passo</string>
+	<string name="loginStatic">Accedi con micro segnale / numero QQ / email</string>
+	<string name="RetrievePassword">Recupera password</string>
+	<string name="EmergencyFreeze">Congelamento di emergenza</string>
+	<string name="SecurityCenter">WeChat Security Center</string>
+	<string name="editphone">Si prega di compilare il numero di cellulare</string>
+	<string name="copyright">Facendo clic sul pulsante "Registra" qui sopra, accetti il ​​Contratto di licenza e assistenza software Tencent WeChat e le linee guida sulla protezione della privacy di Tencent.</string>
+	<string name="nickname">soprannome</string>
+	<string name="registrytitle">Inserisci il numero di telefono</string>
+	<string name="NicknameExample">Ad esempio: Chen Chen</string>
 
 </resources>

@@ -7,5 +7,22 @@
 	<string name="language">שפה</string>
 	<string name="language_setting">רב לשוני</string>
 	<string name="save">שמור</string>
+	<string name="cityphone">סין (+86)</string>
+	<string name="citytext">ארץ</string>
+	<string name="phonelogin">מספר טלפון נייד</string>
+	<string name="phone">מספר טלפון נייד</string>
+	<string name="fillphone">מלא את מספר הטלפון</string>
+	<string name="fillpwd">מלא את הסיסמה</string>
+	<string name="pwd">סיסמה</string>
+	<string name="next">השלב הבא</string>
+	<string name="loginStatic">כניסה עם אות מיקרו / מספר QQ / דוא"ל</string>
+	<string name="RetrievePassword">אחזר סיסמה</string>
+	<string name="EmergencyFreeze">הקפאת חירום</string>
+	<string name="SecurityCenter">מרכז האבטחה של WeChat</string>
+	<string name="editphone">מלא את מספר הטלפון הנייד</string>
+	<string name="copyright">על ידי לחיצה על כפתור "הרשמה" לעיל, אתה מסכים רישיון התוכנה WeChat Tencent ואת הסכם השירות ואת הנחיות ההגנה על פרטיות Tencent.</string>
+	<string name="nickname">כינוי</string>
+	<string name="registrytitle">מלא את מספר הטלפון</string>
+	<string name="NicknameExample">לדוגמה: חן חן</string>
 
 </resources>

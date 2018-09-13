@@ -36,7 +36,7 @@ public class DisplayActivity extends BaseActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
         initView();
-        handler.sendEmptyMessageDelayed(1,1000*2);
+        handler.sendEmptyMessageDelayed(1,1000*3);
     }
 
     private void initView() {
@@ -53,13 +53,13 @@ public class DisplayActivity extends BaseActivity implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.bt_login://登陆
-
+                    startActivity(new Intent(this,LoginActivity.class));
                 break;
             case R.id.bt_registry://注册
-
+                startActivity(new Intent(this,registryActivity.class));
                 break;
             case R.id.bt_language://语言
-                startActivity(new Intent(this,Language_setting.class));
+                startActivity(new Intent(this,Language_setting_activity.class));
                 break;
 
         }

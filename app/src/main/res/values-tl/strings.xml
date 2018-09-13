@@ -7,5 +7,22 @@
 	<string name="language">Wika</string>
 	<string name="language_setting">Multilingual</string>
 	<string name="save">I-save</string>
+	<string name="cityphone">Tsina (+86)</string>
+	<string name="citytext">Bansa</string>
+	<string name="phonelogin">Pag-login sa numero ng mobile</string>
+	<string name="phone">Numero ng mobile phone</string>
+	<string name="fillphone">Mangyaring punan ang numero ng telepono</string>
+	<string name="fillpwd">Mangyaring punan ang password</string>
+	<string name="pwd">Password</string>
+	<string name="next">Susunod na hakbang</string>
+	<string name="loginStatic">Mag-login gamit ang micro signal / numero ng qq / email</string>
+	<string name="RetrievePassword">Kunin ang password</string>
+	<string name="EmergencyFreeze">Pag-freeze ng emerhensiya</string>
+	<string name="SecurityCenter">WeChat Security Center</string>
+	<string name="editphone">Mangyaring punan ang numero ng mobile</string>
+	<string name="copyright">Sa pamamagitan ng pag-click sa pindutan ng "Register" sa itaas, sumasang-ayon ka sa Tencent WeChat Software License at Kasunduan sa Serbisyo at Tencent Mga Alituntunin sa Proteksyon sa Pagkapribado.</string>
+	<string name="nickname">Palayaw</string>
+	<string name="registrytitle">Punan ang numero ng telepono</string>
+	<string name="NicknameExample">Halimbawa: Chen Chen</string>
 
 </resources>
