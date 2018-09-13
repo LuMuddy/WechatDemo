@@ -31,6 +31,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -57,7 +58,7 @@
                 android:text="@string/citytext"
                 android:layout_centerVertical="true"
                 android:textColor="@color/black"/>
-            <TextView
+            <EditText
                 android:layout_marginLeft="20sp"
                 android:layout_toRightOf="@+id/tv_city"
                 android:id="@+id/Et_Original_Pwd"
@@ -134,7 +135,7 @@
     android:text="@string/loginStatic"
     android:layout_marginLeft="25sp"
     android:layout_marginTop="25sp"
-    android:textColor="@color/slateblue"/>
+    android:textColor="@color/text"/>
     <Button
         android:layout_below="@+id/tv_login_static"
         android:id="@+id/bt_next"
@@ -158,10 +159,11 @@
         >
 
         <TextView
+            android:id="@+id/tv_retrieve_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/RetrievePassword"
-            android:textColor="@color/dodgerblue"
+            android:textColor="@color/text"
             android:gravity="right"
             android:layout_marginRight="10sp"
             android:layout_weight="1"/>
@@ -170,25 +172,28 @@
             android:layout_height="20sp"
             android:background="@color/titleblack"
            />
+
         <TextView
+            android:id="@+id/emergency_freezing"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EmergencyFreeze"
-            android:gravity="center"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textColor="@color/dodgerblue"/>
+            android:gravity="center"
+            android:text="@string/EmergencyFreeze"
+            android:textColor="@color/text" />
             <View
                 android:layout_width="1sp"
                 android:layout_height="20sp"
                 android:background="@color/titleblack"
                />
         <TextView
+            android:id="@+id/wechat_security_enter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
             android:text="@string/SecurityCenter"
             android:layout_marginLeft="10sp"
-            android:textColor="@color/dodgerblue"
+            android:textColor="@color/text"
             android:layout_weight="1"/>
 
     </LinearLayout>

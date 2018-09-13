@@ -156,4 +156,5 @@
     <color name="registrycolor">#F8F8F8</color><!--注册 -->
     <color name="title">#1E1E1E</color><!--全局标题 -->
 
+    <color name="text">#62749B</color><!--全局标题 -->
 </resources>

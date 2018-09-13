@@ -5,7 +5,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/status_bar_height"
-        android:background="@color/titleblack" />
+        android:background="@color/interval"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,37 +16,40 @@
             android:id="@+id/rl_head"
             android:layout_width="match_parent"
             android:layout_height="40sp"
-            android:background="@color/titleblack">
+            android:background="@color/interval">
             <ImageView
                 android:id="@+id/iv_back"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
-                android:background="@mipmap/ic_launcher"
+                android:background="@drawable/login_del"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10sp"
                 />
-            <TextView
-                android:layout_toRightOf="@+id/iv_back"
-                android:layout_centerVertical="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/registrytitle"
-                android:layout_marginLeft="10sp"
-                android:textColor="@color/white"/>
+
         </RelativeLayout>
         <LinearLayout
             android:layout_below="@+id/rl_head"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             >
-
+            <TextView
+                android:layout_marginTop="20sp"
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/phoneregistry"
+                android:textColor="#FF181818"
+                android:textSize="23dp" />
             <RelativeLayout
+
                 android:layout_width="wrap_content"
                 android:layout_height="100sp"
                 >
+
                 <TextView
                     android:id="@+id/tv_name"
                     android:layout_width="wrap_content"
@@ -74,8 +77,8 @@
 
                 <ImageView
                     android:id="@+id/iv_head_url"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:src="@mipmap/ic_launcher" />
@@ -205,14 +208,15 @@
                 android:layout_marginLeft="20sp"
                 android:layout_marginTop="25sp"
                 />
+
             <TextView
                 android:id="@+id/tv_copyright"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/copyright"
-                android:layout_marginRight="10sp"
                 android:layout_marginLeft="5sp"
-                android:layout_marginTop="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="25sp"
+                android:textSize="12sp"
                 />
 
         </LinearLayout>

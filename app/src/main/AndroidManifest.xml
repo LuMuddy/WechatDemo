@@ -3,6 +3,7 @@
     package="muddy.top.wechatdemo">
 
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,21 +15,24 @@
         android:theme="@style/AppTheme">
 
         <!-- 启动页 -->
-        <activity android:name=".Activity.DisplayActivity">
+        <activity android:name=".Activity.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            <!--语言设置-->
-        <activity android:name=".Activity.Language_setting_activity" />
-        <!--登陆-->
+        <!-- 语言设置 -->
+        <activity android:name=".Activity.LanguageSettingActivity" />
+        <!-- 登陆 -->
         <activity android:name=".Activity.LoginActivity" />
-        <!--注册-->
-        <activity android:name=".Activity.registryActivity"/>
-        <!--主页-->
+        <!-- 注册 -->
+        <activity android:name=".Activity.registryActivity" />
+        <!-- 主页 -->
         <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.ChooseCountryActivity" />
+        <activity android:name=".Activity.DisplayActivity" />
+        <activity android:name=".Activity.WebIntentactivity"></activity>
     </application>
 
 </manifest>
