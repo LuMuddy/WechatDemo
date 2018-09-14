@@ -10,19 +10,29 @@
 	<string name="cityphone">中國(+86)</string>
 	<string name="citytext">國家/地區</string>
 	<string name="phonelogin">手機號登錄</string>
+	<string name="phoneregistry">手機號註冊</string>
 	<string name="phone">手機號</string>
 	<string name="fillphone">請填寫手機號</string>
 	<string name="fillpwd">請填寫密碼</string>
 	<string name="pwd">密碼</string>
 	<string name="next">下一步</string>
+	<string name="pleastwechatpwd">請填寫微信密碼</string>
 	<string name="loginStatic">用微信號/QQ號/郵箱登錄</string>
+	<string name="smsStatic">用短信驗證碼登陸</string>
 	<string name="RetrievePassword">找回密碼</string>
 	<string name="EmergencyFreeze">緊急凍結</string>
 	<string name="SecurityCenter">微信安全中心</string>
 	<string name="editphone">請填寫手機號碼</string>
 	<string name="copyright">點擊上面的"註冊"按鈕，即表示你同意《騰訊微信軟件許可及服務協議》和《騰訊隱私保護指引》</string>
+	<string name="protocolone">《騰訊微信軟件許可及服務協議》</string>
+	<string name="protocoltwo">《騰訊隱私保護指南》</string>
+	<string name="and">和</string>
 	<string name="nickname">暱稱</string>
 	<string name="registrytitle">填寫手機號</string>
 	<string name="NicknameExample">例如：陳晨</string>
+	<string name="Choosecountry">選擇國家和地區代碼</string>
+	<string name="Accountnumber">賬號</string>
+	<string name="loginstatic">微信號/QQ號/郵箱登錄</string>
+	<string name="pleaseloginstatic">請填寫微信號/QQ號/郵箱</string>
 
 </resources>

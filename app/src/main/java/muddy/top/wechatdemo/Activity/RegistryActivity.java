@@ -12,7 +12,7 @@ import muddy.top.wechatdemo.R;
 import muddy.top.wechatdemo.Utils.SpannableString.CopyOfShuoMClickableSpan;
 import muddy.top.wechatdemo.Utils.SpannableString.ShuoMClickableSpan;
 
-public class registryActivity extends BaseActivity {
+public class RegistryActivity extends BaseActivity {
     private TextView tv_copyright;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,6 @@ public class registryActivity extends BaseActivity {
         tv_copyright.append(spanttt);
         tv_copyright.append(getText(R.string.and));
        tv_copyright.append(spansss);
-//        tv_copyright.append("你是谁你谁你是谁你谁你是谁你谁你是谁你谁你是谁你谁");
         tv_copyright.setMovementMethod(LinkMovementMethod.getInstance());
 
 

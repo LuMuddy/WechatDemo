@@ -10,19 +10,29 @@
 	<string name="cityphone">Kína (+86)</string>
 	<string name="citytext">Land</string>
 	<string name="phonelogin">Farsímanúmer innskráningar</string>
+	<string name="phoneregistry">Skráning á farsímanúmeri</string>
 	<string name="phone">Farsímanúmer</string>
 	<string name="fillphone">Vinsamlegast fylltu inn símanúmerið</string>
 	<string name="fillpwd">Vinsamlegast fylltu inn lykilorðið</string>
 	<string name="pwd">Lykilorð</string>
 	<string name="next">Næsta skref</string>
+	<string name="pleastwechatpwd">Vinsamlegast fylltu inn WeChat lykilorðið</string>
 	<string name="loginStatic">Innskráning með örmerki / QQ númer / email</string>
+	<string name="smsStatic">Skráðu þig inn með SMS staðfestingarkóða</string>
 	<string name="RetrievePassword">Sækja lykilorð</string>
 	<string name="EmergencyFreeze">Neyðarfrestur</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Vinsamlegast fylltu inn farsímanúmerið</string>
 	<string name="copyright">Með því að smella á "Nýskráning" hnappinn hér að ofan samþykkir þú Tencent WeChat hugbúnaðarleyfisskilmála og þjónustusamning og Tencent Privacy Policy.</string>
+	<string name="protocolone">Tencent WeChat hugbúnaðarleyfi og þjónustusamningur</string>
+	<string name="protocoltwo">Tencent Privacy Protection Guide</string>
+	<string name="and">Og</string>
 	<string name="nickname">Gælunafn</string>
 	<string name="registrytitle">Fylltu inn símanúmerið</string>
 	<string name="NicknameExample">Til dæmis: Chen Chen</string>
+	<string name="Choosecountry">Veldu landskóða</string>
+	<string name="Accountnumber">Reikningsnúmer</string>
+	<string name="loginstatic">Örmerki / QQ númer / pósthólf</string>
+	<string name="pleaseloginstatic">Vinsamlegast fylltu inn örmerkið / QQ númerið / pósthólfið</string>
 
 </resources>

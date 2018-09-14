@@ -10,19 +10,29 @@
 	<string name="cityphone">Кітай (+86)</string>
 	<string name="citytext">Краіна / Рэгіён</string>
 	<string name="phonelogin">Нумар тэлефона Увайсці</string>
+	<string name="phoneregistry">Мабільны нумар тэлефона зарэгістраваны</string>
 	<string name="phone">тэлефон</string>
 	<string name="fillphone">Запоўніце, калі ласка, нумар тэлефона</string>
 	<string name="fillpwd">Запоўніце, калі ласка, пароль</string>
 	<string name="pwd">пароль</string>
 	<string name="next">наступны крок</string>
+	<string name="pleastwechatpwd">Запоўніце, калі ласка, мікра-літарны пароль</string>
 	<string name="loginStatic">Micro сігнал / нумар QQ / Email Увайсці</string>
+	<string name="smsStatic">Увайсці з дапамогай SMS-код</string>
 	<string name="RetrievePassword">забыліся пароль</string>
 	<string name="EmergencyFreeze">аварыйнае замарожванне</string>
 	<string name="SecurityCenter">Micro ліст Цэнтр бяспекі</string>
 	<string name="editphone">Запоўніце, калі ласка, нумар мабільнага тэлефона</string>
 	<string name="copyright">Націсніце на кнопку «Рэгістрацыя», вы згаджаецеся, што «Tencent мікра-канал ліцэнзіі і паслугі пагадненне на праграмнае забеспячэнне» і «Tencent прынцыпы прыватнасці.»</string>
+	<string name="protocolone">«Tencent мікра-канал ліцэнзіі і паслугі пагаднення на праграмнае забеспячэнне.»</string>
+	<string name="protocoltwo">«Tencent Кіраўніцтва па прыватнасці.»</string>
+	<string name="and">і</string>
 	<string name="nickname">мянушка</string>
 	<string name="registrytitle">Калі ласка, увядзіце нумар тэлефона</string>
 	<string name="NicknameExample">Напрыклад: Chen Chen</string>
+	<string name="Choosecountry">Выберыце краіну і код горада</string>
+	<string name="Accountnumber">рахункі</string>
+	<string name="loginstatic">Micro Signal / нумар QQ / Email Увайсці</string>
+	<string name="pleaseloginstatic">Калі ласка, запоўніце Micro Signal / нумар QQ / Электронная пошта</string>
 
 </resources>

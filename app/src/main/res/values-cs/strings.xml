@@ -10,19 +10,29 @@
 	<string name="cityphone">Čína (+86)</string>
 	<string name="citytext">Země</string>
 	<string name="phonelogin">Přihlášení k mobilnímu číslu</string>
+	<string name="phoneregistry">Registrace mobilních čísel</string>
 	<string name="phone">Číslo mobilního telefonu</string>
 	<string name="fillphone">Vyplňte prosím telefonní číslo</string>
 	<string name="fillpwd">Prosím, vyplňte heslo</string>
 	<string name="pwd">Heslo</string>
 	<string name="next">Další krok</string>
+	<string name="pleastwechatpwd">Vyplňte prosím heslo WeChat</string>
 	<string name="loginStatic">Přihlaste se pomocí mikro signálu / čísla QQ / e-mailu</string>
+	<string name="smsStatic">Přihlaste se pomocí ověřovacího kódu SMS</string>
 	<string name="RetrievePassword">Načíst heslo</string>
 	<string name="EmergencyFreeze">Nouzové zmrazení</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Vyplňte číslo mobilního telefonu</string>
 	<string name="copyright">Kliknutím na tlačítko "Registrace" výše souhlasíte s licenční smlouvou o softwaru Tencent WeChat a smlouvou o poskytování služeb a směrnicemi o ochraně soukromí společnosti Tencent.</string>
+	<string name="protocolone">Tencent licenční smlouva softwaru WeChat a smlouva o poskytování služeb</string>
+	<string name="protocoltwo">Tencent Průvodce ochrany osobních údajů</string>
+	<string name="and">A</string>
 	<string name="nickname">Přezdívka</string>
 	<string name="registrytitle">Vyplňte telefonní číslo</string>
 	<string name="NicknameExample">Například: Chen Chen</string>
+	<string name="Choosecountry">Vyberte kód země</string>
+	<string name="Accountnumber">Číslo účtu</string>
+	<string name="loginstatic">Mikro signál / QQ číslo / přihlašovací schránka</string>
+	<string name="pleaseloginstatic">Vyplňte prosím mikro signál / číslo QQ / poštovní schránku</string>
 
 </resources>

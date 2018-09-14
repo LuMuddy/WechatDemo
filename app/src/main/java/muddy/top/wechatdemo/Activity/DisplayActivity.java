@@ -38,7 +38,7 @@ public class DisplayActivity extends BaseActivity implements View.OnClickListene
                     startActivity(new Intent(this,LoginActivity.class));
                 break;
             case R.id.bt_registry://注册
-                startActivity(new Intent(this,registryActivity.class));
+                startActivity(new Intent(this,RegistryActivity.class));
                 break;
             case R.id.bt_language://语言
                 startActivity(new Intent(this,LanguageSettingActivity.class));

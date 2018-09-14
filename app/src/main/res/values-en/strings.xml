@@ -10,19 +10,29 @@
 	<string name="cityphone">China (+86)</string>
 	<string name="citytext">country / region</string>
 	<string name="phonelogin">Mobile number login</string>
+	<string name="phoneregistry">Mobile number registration</string>
 	<string name="phone">phone number</string>
 	<string name="fillphone">Please fill in your phone number</string>
 	<string name="fillpwd">Please fill in the password</string>
 	<string name="pwd">password</string>
 	<string name="next">Next step</string>
+	<string name="pleastwechatpwd">Please fill in the WeChat password</string>
 	<string name="loginStatic">Login with micro signal / QQ number / email</string>
+	<string name="smsStatic">Log in with SMS verification code</string>
 	<string name="RetrievePassword">Retrieve password</string>
 	<string name="EmergencyFreeze">Emergency freeze</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">please fill in cell phone number</string>
 	<string name="copyright">By clicking the "Register" button above, you agree to the Tencent WeChat Software License and Service Agreement and Tencent Privacy Protection Guidelines.</string>
+	<string name="protocolone">Tencent WeChat Software License and Service Agreement</string>
+	<string name="protocoltwo">Tencent Privacy Protection Guide</string>
+	<string name="and">with</string>
 	<string name="nickname">nickname</string>
 	<string name="registrytitle">Fill in mobile number</string>
 	<string name="NicknameExample">For example: Chen Chen</string>
+	<string name="Choosecountry">Select country code</string>
+	<string name="Accountnumber">account number</string>
+	<string name="loginstatic">Micro signal / QQ number / mailbox login</string>
+	<string name="pleaseloginstatic">Please fill in the micro signal / QQ number / mailbox</string>
 
 </resources>

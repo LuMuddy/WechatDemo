@@ -10,19 +10,29 @@
 	<string name="cityphone">Κίνα (+86)</string>
 	<string name="citytext">Χώρα</string>
 	<string name="phonelogin">Σύνδεση κινητού αριθμού</string>
+	<string name="phoneregistry">Εγγραφή κινητού αριθμού</string>
 	<string name="phone">Αριθμός κινητού τηλεφώνου</string>
 	<string name="fillphone">Συμπληρώστε τον αριθμό τηλεφώνου</string>
 	<string name="fillpwd">Παρακαλώ συμπληρώστε τον κωδικό πρόσβασης</string>
 	<string name="pwd">Κωδικός πρόσβασης</string>
 	<string name="next">Επόμενο βήμα</string>
+	<string name="pleastwechatpwd">Συμπληρώστε τον κωδικό πρόσβασης WeChat</string>
 	<string name="loginStatic">Σύνδεση με σήμα μικροφώνου / QQ / email</string>
+	<string name="smsStatic">Συνδεθείτε με τον κωδικό επαλήθευσης SMS</string>
 	<string name="RetrievePassword">Ανάκτηση κωδικού πρόσβασης</string>
 	<string name="EmergencyFreeze">Επείγουσα κατάψυξη</string>
 	<string name="SecurityCenter">WeChat Κέντρο Ασφαλείας</string>
 	<string name="editphone">Συμπληρώστε τον αριθμό κινητού τηλεφώνου</string>
 	<string name="copyright">Κάνοντας κλικ στο κουμπί "Εγγραφή" παραπάνω, αποδέχεστε τη συμφωνία άδειας χρήσης και υπηρεσίας Tencent WeChat και τις κατευθυντήριες γραμμές προστασίας προσωπικών δεδομένων Tencent.</string>
+	<string name="protocolone">Tencent License WeChat Λογισμικό και Συμφωνία παροχής υπηρεσιών</string>
+	<string name="protocoltwo">Οδηγός Προστασίας Προσωπικών Δεδομένων Tencent</string>
+	<string name="and">Και</string>
 	<string name="nickname">Ψευδώνυμο</string>
 	<string name="registrytitle">Συμπληρώστε τον αριθμό τηλεφώνου</string>
 	<string name="NicknameExample">Για παράδειγμα: Chen Chen</string>
+	<string name="Choosecountry">Επιλέξτε τον κωδικό χώρας</string>
+	<string name="Accountnumber">Αριθμός λογαριασμού</string>
+	<string name="loginstatic">Μικρό σήμα / αριθμός QQ / σύνδεση γραμματοκιβωτίου</string>
+	<string name="pleaseloginstatic">Συμπληρώστε τον αριθμό μικροφώνου / QQ / γραμματοκιβώτιο</string>
 
 </resources>

@@ -10,19 +10,29 @@
 	<string name="cityphone">Кина (+86)</string>
 	<string name="citytext">Земја</string>
 	<string name="phonelogin">Влез за мобилен број</string>
+	<string name="phoneregistry">Регистрација на мобилен број</string>
 	<string name="phone">Број на мобилен телефон</string>
 	<string name="fillphone">Ве молиме пополнете го телефонскиот број</string>
 	<string name="fillpwd">Ве молиме пополнете ја лозинката</string>
 	<string name="pwd">Лозинка</string>
 	<string name="next">Следен чекор</string>
+	<string name="pleastwechatpwd">Ве молиме пополнете лозинка WeChat</string>
 	<string name="loginStatic">Пријавете се со микро сигнал / операција за број / е-пошта</string>
+	<string name="smsStatic">Пријавете се со SMS-верификационен код</string>
 	<string name="RetrievePassword">Поврати лозинка</string>
 	<string name="EmergencyFreeze">Замрзнување во итни случаи</string>
 	<string name="SecurityCenter">WeChat центар за безбедност</string>
 	<string name="editphone">Ве молиме пополнете го мобилниот број</string>
 	<string name="copyright">Со кликнување на копчето "Регистрирај се" погоре, се согласувате со Tencent WeChat Лиценцата за лиценца и услуга и Tencent Прирачникот за заштита на приватноста.</string>
+	<string name="protocolone">Tencent WeChat Лиценца за софтвер и услуга</string>
+	<string name="protocoltwo">Tencent заштита на приватноста Водич</string>
+	<string name="and">И</string>
 	<string name="nickname">Прекар</string>
 	<string name="registrytitle">Пополнете го телефонскиот број</string>
 	<string name="NicknameExample">На пример: Чен Чен</string>
+	<string name="Choosecountry">Изберете код на државата</string>
+	<string name="Accountnumber">Број на сметка</string>
+	<string name="loginstatic">Микро сигнал / QQ број / пошта најавување</string>
+	<string name="pleaseloginstatic">Ве молиме пополнете го микро сигналот / бројот на операција / поштенското сандаче</string>
 
 </resources>

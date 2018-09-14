@@ -10,19 +10,29 @@
 	<string name="cityphone">Çin (+86)</string>
 	<string name="citytext">Ölkə</string>
 	<string name="phonelogin">Mobil nömrə girişi</string>
+	<string name="phoneregistry">Mobil nömrələrin qeydiyyatı</string>
 	<string name="phone">Mobil telefon nömrəsi</string>
 	<string name="fillphone">Xahiş edirik telefon nömrəsini doldurun</string>
 	<string name="fillpwd">Şifrəni doldurun</string>
 	<string name="pwd">Şifrə</string>
 	<string name="next">Növbəti addım</string>
+	<string name="pleastwechatpwd">WeChat şifrəsini doldurun</string>
 	<string name="loginStatic">Mikro siqnal / QQ nömrəsi / e-poçt ilə daxil olun</string>
+	<string name="smsStatic">SMS doğrulama koduyla daxil olun</string>
 	<string name="RetrievePassword">Şifrəni bərpa edin</string>
 	<string name="EmergencyFreeze">Təcili dondurma</string>
 	<string name="SecurityCenter">WeChat Təhlükəsizlik Mərkəzi</string>
 	<string name="editphone">Mobil nömrənizi doldurun</string>
 	<string name="copyright">Yuxarıdakı "Qeydiyyat" düyməsinə tıklayarak, Tencent WeChat Software Lisenziya və Xidmət Konvensiyasını və Tencent Gizlilik Qorunma Təlimatlarını qəbul edirsiniz.</string>
+	<string name="protocolone">Tencent WeChat Proqram Lisansı və Xidmət Konvensiyası</string>
+	<string name="protocoltwo">Tencent Gizlilik Qoruma Kılavuzu</string>
+	<string name="and">Və</string>
 	<string name="nickname">İstifadəçi adı</string>
 	<string name="registrytitle">Telefon nömrəsini doldurun</string>
 	<string name="NicknameExample">Məsələn: Chen Chen</string>
+	<string name="Choosecountry">Ölkə kodunu seçin</string>
+	<string name="Accountnumber">Hesab nömrəsi</string>
+	<string name="loginstatic">Mikro siqnal / QQ nömrəsi / poçt qutusu giriş</string>
+	<string name="pleaseloginstatic">Mikro sinyali / QQ nömrəsini / poçt qutusunu doldurun</string>
 
 </resources>

@@ -10,7 +10,7 @@
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-      >
+        >
         <ImageView
             android:id="@+id/iv_quit"
             android:layout_width="21.4dp"
@@ -46,49 +46,47 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             >
-        <RelativeLayout
-            android:id="@+id/rl_city"
-            android:layout_width="wrap_content"
-            android:orientation="vertical"
-            android:layout_height="48sp"
-            >
-            <TextView
-                android:id="@+id/tv_city"
+            <RelativeLayout
+                android:id="@+id/rl_city"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/citytext"
-                android:layout_centerVertical="true"
-                android:textColor="@color/black"/>
-            <EditText
-                android:id="@+id/et_one"
-                android:layout_marginLeft="40sp"
-                android:layout_toRightOf="@+id/tv_city"
-                android:layout_width="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_height="wrap_content"
-                android:background="@null"
-                android:maxLength="16"
-                android:singleLine="true"
-                android:textColor="@color/logincolor"
-                android:text="@string/cityphone"
-                android:textSize="14sp" />
-            <ImageView
-                android:id="@+id/iv_one_clear"
-                android:layout_width="20sp"
-                android:layout_height="20sp"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:src="@drawable/login_del"
-                android:visibility="gone"
-                />
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_alignParentLeft="true"
-                android:layout_below="@+id/et_one"
-                android:layout_marginTop="12dp"
-                android:background="#FFD8D8D8" />
-        </RelativeLayout>
+                android:orientation="vertical"
+                android:layout_height="48sp"
+                >
+                <TextView
+                    android:id="@+id/tv_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/tv_one"
+                    android:layout_marginLeft="40sp"
+                    android:layout_toRightOf="@+id/tv_city"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+                <ImageView
+                    android:id="@+id/iv_one_clear"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/login_del"
+                    android:visibility="gone"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tv_one"
+                    android:layout_marginTop="12dp"
+                    android:background="#FFD8D8D8" />
+            </RelativeLayout>
 
 
 
@@ -110,7 +108,7 @@
                     android:id="@+id/tv_phone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/phone"
+                    android:text="@string/pwd"
                     android:layout_centerVertical="true"
                     android:textColor="@color/black"/>
 
@@ -123,7 +121,7 @@
                     android:layout_toRightOf="@+id/tv_phone"
                     android:layout_toLeftOf="@+id/iv_two_clear"
                     android:background="@null"
-                    android:hint="@string/fillphone"
+                    android:hint="@string/pleastwechatpwd"
                     android:maxLength="16"
                     android:singleLine="true"
                     android:textColor="@color/black"
@@ -149,22 +147,22 @@
 
         </RelativeLayout>
     </LinearLayout>
-<TextView
-    android:id="@+id/tv_login_static"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/Ll_Middle"
-    android:text="@string/loginStatic"
-    android:layout_marginLeft="25sp"
-    android:layout_marginTop="25sp"
-    android:textColor="@color/text"/>
+    <TextView
+        android:id="@+id/tv_login_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ll_Middle"
+        android:text="@string/smsStatic"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/text"/>
     <Button
         android:layout_below="@+id/tv_login_static"
         android:id="@+id/bt_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="@string/next"
+        android:text="@string/login"
         android:background="@drawable/bt_noclickable_shape"
         android:layout_marginRight="20sp"
         android:layout_marginLeft="20sp"
@@ -193,7 +191,7 @@
             android:layout_width="1sp"
             android:layout_height="20sp"
             android:background="@color/titleblack"
-           />
+            />
 
         <TextView
             android:id="@+id/emergency_freezing"
@@ -203,11 +201,11 @@
             android:gravity="center"
             android:text="@string/EmergencyFreeze"
             android:textColor="@color/text" />
-            <View
-                android:layout_width="1sp"
-                android:layout_height="20sp"
-                android:background="@color/titleblack"
-               />
+        <View
+            android:layout_width="1sp"
+            android:layout_height="20sp"
+            android:background="@color/titleblack"
+            />
         <TextView
             android:id="@+id/wechat_security_enter"
             android:layout_width="wrap_content"

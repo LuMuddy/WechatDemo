@@ -10,19 +10,29 @@
 	<string name="cityphone">Cina (+86)</string>
 	<string name="citytext">Paese / Regione</string>
 	<string name="phonelogin">Login per il numero di cellulare</string>
+	<string name="phoneregistry">Registrazione del numero di cellulare</string>
 	<string name="phone">Numero di cellulare</string>
 	<string name="fillphone">Si prega di compilare il numero di telefono</string>
 	<string name="fillpwd">Si prega di inserire la password</string>
 	<string name="pwd">password</string>
 	<string name="next">Prossimo passo</string>
+	<string name="pleastwechatpwd">Si prega di compilare la password di WeChat</string>
 	<string name="loginStatic">Accedi con micro segnale / numero QQ / email</string>
+	<string name="smsStatic">Accedi con il codice di verifica SMS</string>
 	<string name="RetrievePassword">Recupera password</string>
 	<string name="EmergencyFreeze">Congelamento di emergenza</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Si prega di compilare il numero di cellulare</string>
 	<string name="copyright">Facendo clic sul pulsante "Registra" qui sopra, accetti il ​​Contratto di licenza e assistenza software Tencent WeChat e le linee guida sulla protezione della privacy di Tencent.</string>
+	<string name="protocolone">Tencent WeChat Contratto di licenza e servizio software</string>
+	<string name="protocoltwo">Guida alla protezione della privacy di Tencent</string>
+	<string name="and">e</string>
 	<string name="nickname">soprannome</string>
 	<string name="registrytitle">Inserisci il numero di telefono</string>
 	<string name="NicknameExample">Ad esempio: Chen Chen</string>
+	<string name="Choosecountry">Seleziona il codice del paese</string>
+	<string name="Accountnumber">Numero di conto</string>
+	<string name="loginstatic">Micro segnale / numero QQ / login casella di posta</string>
+	<string name="pleaseloginstatic">Si prega di compilare il micro segnale / numero QQ / casella di posta</string>
 
 </resources>

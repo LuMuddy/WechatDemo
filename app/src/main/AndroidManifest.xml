@@ -27,12 +27,13 @@
         <!-- 登陆 -->
         <activity android:name=".Activity.LoginActivity" />
         <!-- 注册 -->
-        <activity android:name=".Activity.registryActivity" />
+        <activity android:name=".Activity.RegistryActivity" />
         <!-- 主页 -->
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.ChooseCountryActivity" />
         <activity android:name=".Activity.DisplayActivity" />
-        <activity android:name=".Activity.WebIntentactivity"></activity>
+        <activity android:name=".Activity.WebIntentactivity" />
+        <activity android:name=".Activity.MoblieLoginActivity"></activity>
     </application>
 
 </manifest>

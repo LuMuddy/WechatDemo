@@ -10,19 +10,29 @@
 	<string name="cityphone">Tsina (+86)</string>
 	<string name="citytext">Bansa</string>
 	<string name="phonelogin">Pag-login sa numero ng mobile</string>
+	<string name="phoneregistry">Pagpaparehistro ng numero ng mobile</string>
 	<string name="phone">Numero ng mobile phone</string>
 	<string name="fillphone">Mangyaring punan ang numero ng telepono</string>
 	<string name="fillpwd">Mangyaring punan ang password</string>
 	<string name="pwd">Password</string>
 	<string name="next">Susunod na hakbang</string>
+	<string name="pleastwechatpwd">Mangyaring punan ang password ng WeChat</string>
 	<string name="loginStatic">Mag-login gamit ang micro signal / numero ng qq / email</string>
+	<string name="smsStatic">Mag-log in gamit ang SMS verification code</string>
 	<string name="RetrievePassword">Kunin ang password</string>
 	<string name="EmergencyFreeze">Pag-freeze ng emerhensiya</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Mangyaring punan ang numero ng mobile</string>
 	<string name="copyright">Sa pamamagitan ng pag-click sa pindutan ng "Register" sa itaas, sumasang-ayon ka sa Tencent WeChat Software License at Kasunduan sa Serbisyo at Tencent Mga Alituntunin sa Proteksyon sa Pagkapribado.</string>
+	<string name="protocolone">Tencent WeChat Software License and Service Agreement</string>
+	<string name="protocoltwo">Tencent Privacy Protection Guide</string>
+	<string name="and">At</string>
 	<string name="nickname">Palayaw</string>
 	<string name="registrytitle">Punan ang numero ng telepono</string>
 	<string name="NicknameExample">Halimbawa: Chen Chen</string>
+	<string name="Choosecountry">Pumili ng code ng bansa</string>
+	<string name="Accountnumber">Numero ng account</string>
+	<string name="loginstatic">Pag-login sa micro signal / qq number / mailbox</string>
+	<string name="pleaseloginstatic">Mangyaring punan ang micro signal / qq number / mailbox</string>
 
 </resources>

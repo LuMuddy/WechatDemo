@@ -10,19 +10,29 @@
 	<string name="cityphone">中国（+86）</string>
 	<string name="citytext">国</string>
 	<string name="phonelogin">携帯番号ログイン</string>
+	<string name="phoneregistry">携帯電話番号登録</string>
 	<string name="phone">携帯電話番号</string>
 	<string name="fillphone">電話番号を記入してください</string>
 	<string name="fillpwd">パスワードを記入してください</string>
 	<string name="pwd">パスワード</string>
 	<string name="next">次のステップ</string>
+	<string name="pleastwechatpwd">WeChatのパスワードを入力してください</string>
 	<string name="loginStatic">マイクロシグナル/ QQ番号/電子メールでログイン</string>
+	<string name="smsStatic">SMS認証コードでログインする</string>
 	<string name="RetrievePassword">パスワードを取得する</string>
 	<string name="EmergencyFreeze">緊急凍結</string>
 	<string name="SecurityCenter">WeChatセキュリティセンター</string>
 	<string name="editphone">携帯電話番号を入力してください</string>
 	<string name="copyright">上記の「登録」ボタンをクリックすることにより、Tencent WeChatソフトウェアライセンスおよびサービス契約、Tencentプライバシー保護ガイドラインに同意したことになります。</string>
+	<string name="protocolone">Tencent WeChatソフトウェアライセンスおよびサービス契約</string>
+	<string name="protocoltwo">テンセントプライバシー保護ガイド</string>
+	<string name="and">そして</string>
 	<string name="nickname">ニックネーム</string>
 	<string name="registrytitle">電話番号を入力してください</string>
 	<string name="NicknameExample">例：Chen Chen</string>
+	<string name="Choosecountry">国コードを選択</string>
+	<string name="Accountnumber">口座番号</string>
+	<string name="loginstatic">マイクロシグナル/ QQ番号/メールボックスログイン</string>
+	<string name="pleaseloginstatic">マイクロシグナル/ QQ番号/メールボックスを記入してください</string>
 
 </resources>
