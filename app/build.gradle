@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "muddy.top.wechatdemo"
@@ -30,6 +32,5 @@ dependencies {
     implementation 'com.gyf.immersionbar:immersionbar:2.3.2-beta01'
     implementation 'com.google.code.gson:gson:2.8.5'
     //dialog
-    implementation('com.dou361.dialogui:jjdxm-dialogui:1.0.3')
-            { exclude group: 'com.android.support' }
+    implementation('com.dou361.dialogui:jjdxm-dialogui:1.0.3') { exclude group: 'com.android.support' }
 }

@@ -143,6 +143,16 @@
                     android:layout_below="@+id/et_two"
                     android:layout_marginTop="12dp"
                     android:background="#FFD8D8D8" />
+                <Button
+                        android:id="@+id/bt_yzm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30sp"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/getyzm"
+                        android:background="@drawable/bt_get_yzm_shape"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:visibility="gone"/>
             </RelativeLayout>
 
         </RelativeLayout>
@@ -163,7 +173,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:text="@string/login"
-        android:background="@drawable/bt_noclickable_shape"
+        android:background="@drawable/bt_lime_shape"
         android:layout_marginRight="20sp"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="25sp"

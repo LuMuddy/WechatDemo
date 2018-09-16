@@ -1,6 +1,8 @@
-package muddy.top.wechatdemo.Activity;
+package muddy.top.wechatdemo.Activity.LoginRegistry;
 
+import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
@@ -14,10 +16,14 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.dou361.dialogui.DialogUIUtils;
+import muddy.top.wechatdemo.Activity.ChooseCountryActivity;
+import muddy.top.wechatdemo.Activity.Home.MainActivity;
+import muddy.top.wechatdemo.Activity.WebIntentactivity;
 import muddy.top.wechatdemo.Application.BaseActivity;
 import muddy.top.wechatdemo.R;
 import muddy.top.wechatdemo.Utils.L;
-import muddy.top.wechatdemo.View.showDialog;
+import muddy.top.wechatdemo.Utils.Regular;
+import muddy.top.wechatdemo.Utils.ShareUtils;
 
 public class LoginActivity extends BaseActivity implements View.OnClickListener {
     private TextView tv_login_static,tv_title,tv_city,tv_phone,tv_retrieve_password,emergency_freezing,wechat_security_enter;
@@ -238,20 +244,39 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             case R.id.bt_next:
                 dialog= DialogUIUtils.showLoading(this, "加载中...", false, true, true, true).show();
                     if (flag){//手机号码登陆
-                        if (et_two.getText().length()<11){
+                        String mobile=et_two.getText().toString();
+                        if (mobile.length()<11||!Regular.RegexExample1(mobile)){
                             dialog.dismiss();
-                            showDialog.showAlerDialog(LoginActivity.this,false,"手机号码错误","你输入的是一个无效的手机号码");
+                            new AlertDialog
+                                    .Builder(LoginActivity.this)
+                                    .setTitle("手机号码错误")
+                                    .setMessage("你输入的是一个无效的手机号码")
+                                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialogInterface, int i) {
 
-                        }else{
+                                        }
+                                    })
+                                    .create()
+                                    .show();
+                            return;
+                        }
+
                             //联网验证账号是否注册
                             Intent intent=new Intent();
                             intent.putExtra("Phone",et_two.getText().toString());
                             intent.setClass(this,MoblieLoginActivity.class);
                             startActivity(intent);
+                            finish();
                             dialog.dismiss();
-                        }
+
                     }else{//微信号QQ登陆
                         L.e("微信号QQ登陆");
+                    startActivity(new Intent(this, MainActivity.class));
+                    ShareUtils.putBoolean(this,"Login_Static",true);
+                      DisplayActivity.instance.finish();//调用
+                    finish();
+
                     }
                 break;
             case R.id.iv_quit:
@@ -260,7 +285,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             case R.id.tv_retrieve_password:
                 Intent intent=new Intent();
                 intent.putExtra("url","https://www.baid.com");
-                intent.setClass(this,WebIntentactivity.class);
+                intent.setClass(this, WebIntentactivity.class);
                 startActivity(intent);
                     break;
             case R.id.emergency_freezing:
@@ -289,7 +314,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                  bt_next.setBackgroundResource(R.drawable.bt_noclickable_shape);
                 break;
             case R.id.rl_city://选择国家
-
+                    startActivity(new Intent(this, ChooseCountryActivity.class));
                 break;
 
         }

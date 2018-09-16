@@ -1,4 +1,4 @@
-package muddy.top.wechatdemo.Activity;
+package muddy.top.wechatdemo.Activity.Welcome;
 
 import android.os.Bundle;
 import android.view.View;

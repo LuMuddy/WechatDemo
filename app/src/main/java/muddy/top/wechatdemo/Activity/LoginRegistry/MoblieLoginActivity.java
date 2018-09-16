@@ -1,8 +1,7 @@
-package muddy.top.wechatdemo.Activity;
+package muddy.top.wechatdemo.Activity.LoginRegistry;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -11,11 +10,19 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.dou361.dialogui.DialogUIUtils;
+import com.dou361.dialogui.listener.DialogUIListener;
+import muddy.top.wechatdemo.Activity.Home.MainActivity;
+import muddy.top.wechatdemo.Application.BaseActivity;
 import muddy.top.wechatdemo.R;
+import muddy.top.wechatdemo.Utils.ShareUtils;
+import muddy.top.wechatdemo.View.showDialog;
 
-public class MoblieLoginActivity extends AppCompatActivity implements View.OnClickListener {
+import static com.dou361.dialogui.DialogUIUtils.showToast;
+import static muddy.top.wechatdemo.Activity.LoginRegistry.DisplayActivity.instance;
+
+public class MoblieLoginActivity extends BaseActivity implements View.OnClickListener {
 
     private ImageView iv_quit;
     private RelativeLayout ril_head;
@@ -35,7 +42,9 @@ public class MoblieLoginActivity extends AppCompatActivity implements View.OnCli
     private TextView emergency_freezing;
     private TextView wechat_security_enter;
     private String Phone;
-
+    private Button bt_yzm;
+    private boolean flag=true;//判断当前的登陆方式，默认为密码登陆
+    private boolean sms=false;//判断验证码是否发生过
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +56,7 @@ public class MoblieLoginActivity extends AppCompatActivity implements View.OnCli
     }
 
     private void initView() {
+        bt_yzm=(Button)findViewById(R.id.bt_yzm);
         iv_quit = (ImageView) findViewById(R.id.iv_quit);
         ril_head = (RelativeLayout) findViewById(R.id.ril_head);
         tv_title = (TextView) findViewById(R.id.tv_title);
@@ -64,15 +74,45 @@ public class MoblieLoginActivity extends AppCompatActivity implements View.OnCli
         tv_retrieve_password = (TextView) findViewById(R.id.tv_retrieve_password);
         emergency_freezing = (TextView) findViewById(R.id.emergency_freezing);
         wechat_security_enter = (TextView) findViewById(R.id.wechat_security_enter);
-
+        bt_yzm.setOnClickListener(this);
         bt_next.setOnClickListener(this);
+        tv_login_static.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.tv_login_static:
+                //改变登陆方式
+                if (!flag){
+                    tv_phone.setText(getString(R.string.pwd));
+                    tv_login_static.setText(getString(R.string.pwdStatic));
+                    bt_yzm.setVisibility(View.GONE);
+                    et_two.setHint(getString(R.string.pleastwechatpwd));
+                }else{
+                    tv_phone.setText(getString(R.string.yzm));
+                    tv_login_static.setText(getString(R.string.smsStatic));
+                    bt_yzm.setVisibility(View.VISIBLE);
+                    et_two.setHint(getString(R.string.inputyzm));
+                }
+                flag=!flag;
+                break;
             case R.id.bt_next:
+                submit();
+                break;
+            case R.id.bt_yzm:
+                DialogUIUtils.showMdAlert(MoblieLoginActivity.this, "确认手机号码","我们将发送验证码短信到下面的号码："+"\n"+tv_one.getText().toString(), new DialogUIListener() {
+                    @Override
+                    public void onPositive() {
 
+                    }
+
+                    @Override
+                    public void onNegative() {
+
+                    }
+
+                }).show();
                 break;
         }
     }
@@ -81,10 +121,18 @@ public class MoblieLoginActivity extends AppCompatActivity implements View.OnCli
         // validate
         String two = et_two.getText().toString().trim();
         if (TextUtils.isEmpty(two)) {
-            Toast.makeText(this, "two不能为空", Toast.LENGTH_SHORT).show();
+            showDialog.showAlerDialog(this,false,"登陆失败","验证码不得为空！");
             return;
         }
+        if (flag){//密码登陆逻辑
 
+        }else{//验证码登陆逻辑
+
+        }
+        startActivity(new Intent(this, MainActivity.class));
+        ShareUtils.putBoolean(this,"Login_Static",true);
+        DisplayActivity.instance.finish();//调用
+        finish();
         // TODO validate success, do something
 
 

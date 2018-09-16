@@ -14,7 +14,7 @@ import android.webkit.WebView;
 
 import java.util.Locale;
 
-import muddy.top.wechatdemo.Activity.DisplayActivity;
+import muddy.top.wechatdemo.Activity.LoginRegistry.DisplayActivity;
 import muddy.top.wechatdemo.Application.AppApplication;
 
 /**

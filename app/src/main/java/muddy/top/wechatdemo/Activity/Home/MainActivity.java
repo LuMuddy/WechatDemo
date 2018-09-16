@@ -1,4 +1,4 @@
-package muddy.top.wechatdemo.Activity;
+package muddy.top.wechatdemo.Activity.Home;
 
 import android.os.Bundle;
 import android.widget.TextView;

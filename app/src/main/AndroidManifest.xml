@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
 
         <!-- 启动页 -->
-        <activity android:name=".Activity.WelcomeActivity">
+        <activity android:name=".Activity.Welcome.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,17 +23,17 @@
             </intent-filter>
         </activity>
         <!-- 语言设置 -->
-        <activity android:name=".Activity.LanguageSettingActivity" />
+        <activity android:name=".Activity.Welcome.LanguageSettingActivity" />
         <!-- 登陆 -->
-        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.LoginRegistry.LoginActivity" />
         <!-- 注册 -->
-        <activity android:name=".Activity.RegistryActivity" />
+        <activity android:name=".Activity.LoginRegistry.RegistryActivity" />
         <!-- 主页 -->
-        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.Home.MainActivity" />
         <activity android:name=".Activity.ChooseCountryActivity" />
-        <activity android:name=".Activity.DisplayActivity" />
+        <activity android:name=".Activity.LoginRegistry.DisplayActivity" />
         <activity android:name=".Activity.WebIntentactivity" />
-        <activity android:name=".Activity.MoblieLoginActivity"></activity>
+        <activity android:name=".Activity.LoginRegistry.MoblieLoginActivity"></activity>
     </application>
 
 </manifest>

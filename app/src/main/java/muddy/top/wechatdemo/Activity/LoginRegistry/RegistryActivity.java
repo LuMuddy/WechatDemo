@@ -1,4 +1,4 @@
-package muddy.top.wechatdemo.Activity;
+package muddy.top.wechatdemo.Activity.LoginRegistry;
 
 import android.os.Bundle;
 import android.text.SpannableString;

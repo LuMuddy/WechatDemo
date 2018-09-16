@@ -1,15 +1,16 @@
-package muddy.top.wechatdemo.Activity;
+package muddy.top.wechatdemo.Activity.Welcome;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
+import muddy.top.wechatdemo.Activity.Home.MainActivity;
+import muddy.top.wechatdemo.Activity.LoginRegistry.DisplayActivity;
 import muddy.top.wechatdemo.Application.BaseActivity;
 import muddy.top.wechatdemo.R;
+import muddy.top.wechatdemo.Utils.ShareUtils;
 
 public class WelcomeActivity extends BaseActivity {
 
@@ -20,7 +21,12 @@ public class WelcomeActivity extends BaseActivity {
             {
                 case 1:
                     //去掉启动Activity的动画效果
-                    Intent intent = new Intent(WelcomeActivity.this, DisplayActivity.class);
+                    Intent intent;
+                    if (ShareUtils.getBoolean(WelcomeActivity.this,"Login_Static",false)){
+                        intent=new  Intent(WelcomeActivity.this, MainActivity.class);
+                    }else{
+                      intent=new  Intent(WelcomeActivity.this, DisplayActivity.class);
+                    }
                     WelcomeActivity.this.startActivity(intent);
                     ((Activity) WelcomeActivity.this).overridePendingTransition(0, 0);
                     finish();

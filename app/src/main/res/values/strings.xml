@@ -32,4 +32,8 @@
     <string name="Accountnumber">账号</string>
     <string name="loginstatic">微信号/QQ号/邮箱登录</string>
     <string name="pleaseloginstatic">请填写微信号/QQ号/邮箱</string>
+    <string name="getyzm">获取验证码</string>
+    <string name="pwdStatic">用密码登陆</string>
+    <string name="yzm">验证码</string>
+    <string name="inputyzm">请填写验证码</string>
 </resources>

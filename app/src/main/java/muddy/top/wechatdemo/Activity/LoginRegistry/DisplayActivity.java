@@ -1,17 +1,18 @@
-package muddy.top.wechatdemo.Activity;
+package muddy.top.wechatdemo.Activity.LoginRegistry;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import muddy.top.wechatdemo.Activity.Welcome.LanguageSettingActivity;
 import muddy.top.wechatdemo.Application.BaseActivity;
 import muddy.top.wechatdemo.R;
 
 public class DisplayActivity extends BaseActivity implements View.OnClickListener {
     private Button bt_login,bt_registry,bt_language;
 
-
+    public static DisplayActivity instance = null;
 
 
     @Override
@@ -19,7 +20,7 @@ public class DisplayActivity extends BaseActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
         initView();
-
+        instance = this;
     }
 
     private void initView() {
@@ -41,7 +42,7 @@ public class DisplayActivity extends BaseActivity implements View.OnClickListene
                 startActivity(new Intent(this,RegistryActivity.class));
                 break;
             case R.id.bt_language://语言
-                startActivity(new Intent(this,LanguageSettingActivity.class));
+                startActivity(new Intent(this, LanguageSettingActivity.class));
                 break;
 
         }
