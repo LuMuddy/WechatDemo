@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">Conxelación de emerxencia</string>
 	<string name="SecurityCenter">Centro de seguridade de WeChat</string>
 	<string name="editphone">Encha o número de teléfono</string>
-	<string name="copyright">Ao facer clic no botón "Rexistrar" de arriba, acepta o Acordo de licenza e servizo de Tencent WeChat Software e as Directrices de protección de privacidade de Tencent.</string>
+	<string name="copyright">Ao facer clic no botón "Rexistrar" arriba, aceptas</string>
 	<string name="protocolone">Acordo de licenza e servizo de software WeChat de Tencent</string>
 	<string name="protocoltwo">Guía de protección de privacidade de Tencent</string>
 	<string name="and">E</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">Número de conta</string>
 	<string name="loginstatic">Número de sinal / QQ / entrada de caixa de correo</string>
 	<string name="pleaseloginstatic">Encha o micro sinal / número QQ / caixa de correo</string>
+	<string name="getyzm">Obter código de verificación</string>
+	<string name="pwdStatic">Inicia sesión cun contrasinal</string>
+	<string name="yzm">Código de verificación</string>
+	<string name="inputyzm">Encha o código de verificación</string>
+	<string name="my">Me</string>
+	<string name="find">Descubre</string>
+	<string name="Addressbook">Caderno de enderezos</string>
+	<string name="wechat">WeChat</string>
 
 </resources>

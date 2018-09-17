@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">Neyðarfrestur</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Vinsamlegast fylltu inn farsímanúmerið</string>
-	<string name="copyright">Með því að smella á "Nýskráning" hnappinn hér að ofan samþykkir þú Tencent WeChat hugbúnaðarleyfisskilmála og þjónustusamning og Tencent Privacy Policy.</string>
+	<string name="copyright">Með því að smella á "Nýskráning" hnappinn hér fyrir ofan samþykkir þú</string>
 	<string name="protocolone">Tencent WeChat hugbúnaðarleyfi og þjónustusamningur</string>
 	<string name="protocoltwo">Tencent Privacy Protection Guide</string>
 	<string name="and">Og</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">Reikningsnúmer</string>
 	<string name="loginstatic">Örmerki / QQ númer / pósthólf</string>
 	<string name="pleaseloginstatic">Vinsamlegast fylltu inn örmerkið / QQ númerið / pósthólfið</string>
+	<string name="getyzm">Fáðu staðfestingarkóða</string>
+	<string name="pwdStatic">Skráðu þig inn með lykilorði</string>
+	<string name="yzm">Staðfestingarkóði</string>
+	<string name="inputyzm">Vinsamlegast fylltu út staðfestingarkóðann</string>
+	<string name="my">Mér</string>
+	<string name="find">Uppgötvaðu</string>
+	<string name="Addressbook">Heimilisfang bók</string>
+	<string name="wechat">WeChat</string>
 
 </resources>

@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">аварыйнае замарожванне</string>
 	<string name="SecurityCenter">Micro ліст Цэнтр бяспекі</string>
 	<string name="editphone">Запоўніце, калі ласка, нумар мабільнага тэлефона</string>
-	<string name="copyright">Націсніце на кнопку «Рэгістрацыя», вы згаджаецеся, што «Tencent мікра-канал ліцэнзіі і паслугі пагадненне на праграмнае забеспячэнне» і «Tencent прынцыпы прыватнасці.»</string>
+	<string name="copyright">Націсніце на кнопку «Рэгістрацыя», вы згаджаецеся з</string>
 	<string name="protocolone">«Tencent мікра-канал ліцэнзіі і паслугі пагаднення на праграмнае забеспячэнне.»</string>
 	<string name="protocoltwo">«Tencent Кіраўніцтва па прыватнасці.»</string>
 	<string name="and">і</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">рахункі</string>
 	<string name="loginstatic">Micro Signal / нумар QQ / Email Увайсці</string>
 	<string name="pleaseloginstatic">Калі ласка, запоўніце Micro Signal / нумар QQ / Электронная пошта</string>
+	<string name="getyzm">Атрымаць код пацверджання</string>
+	<string name="pwdStatic">лагін пароль</string>
+	<string name="yzm">праверачны код</string>
+	<string name="inputyzm">Запоўніце, калі ласка, код пацверджання</string>
+	<string name="my">Я</string>
+	<string name="find">адкрыццё</string>
+	<string name="Addressbook">кантакты</string>
+	<string name="wechat">Micro ліст</string>
 
 </resources>

@@ -1,0 +1,373 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_height"
+            android:background="@color/titleblack"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/interval"
+            android:orientation="vertical">
+        <RelativeLayout
+                android:id="@+id/rl_head"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="@color/titleblack">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/find"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+            />
+
+        </RelativeLayout>
+        <LinearLayout
+                android:layout_below="@+id/rl_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+        >
+
+
+            <RelativeLayout
+                    android:id="@+id/rl_CircleFriends"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_CircleFriends"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CircleFriends"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_CircleFriends"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_scanIt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_scanIt"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScanIt"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_scanIt"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_shake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_shake"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shake"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_shake"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_takeLook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_takeLook"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/TakeLook"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_takeLook"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_search"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Search"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_search"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_people_nearby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_people_nearby"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PeopleNearby"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_people_nearby"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_drifting_bottle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_drifting_bottle"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/DriftingBottle"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_drifting_bottle"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_shopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_shopping"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Shopping"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_shopping"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_game"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_game"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/game"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_game"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/rl_applets"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+            >
+                <ImageView
+                        android:id="@+id/iv_applets"
+                        android:layout_marginLeft="20sp"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Applets"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20sp"
+                        android:layout_toRightOf="@+id/iv_applets"
+                        android:layout_alignParentTop="true"/>
+
+                <ImageView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/jt"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

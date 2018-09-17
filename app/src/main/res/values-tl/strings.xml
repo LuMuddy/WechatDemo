@@ -23,8 +23,8 @@
 	<string name="EmergencyFreeze">Pag-freeze ng emerhensiya</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Mangyaring punan ang numero ng mobile</string>
-	<string name="copyright">Sa pamamagitan ng pag-click sa pindutan ng "Register" sa itaas, sumasang-ayon ka sa Tencent WeChat Software License at Kasunduan sa Serbisyo at Tencent Mga Alituntunin sa Proteksyon sa Pagkapribado.</string>
-	<string name="protocolone">Tencent WeChat Software License and Service Agreement</string>
+	<string name="copyright">Mag-click sa "Register" button, sumasang-ayon ka</string>
+	<string name="protocolone">"Tencent micro-channel lisensya ng software at mga serbisyo kasunduan."</string>
 	<string name="protocoltwo">Tencent Privacy Protection Guide</string>
 	<string name="and">At</string>
 	<string name="nickname">Palayaw</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">Numero ng account</string>
 	<string name="loginstatic">Pag-login sa micro signal / qq number / mailbox</string>
 	<string name="pleaseloginstatic">Mangyaring punan ang micro signal / qq number / mailbox</string>
+	<string name="getyzm">Kumuha ng verification code</string>
+	<string name="pwdStatic">Mag-log in gamit ang isang password</string>
+	<string name="yzm">Kodigo sa pagpapatunay</string>
+	<string name="inputyzm">Mangyaring punan ang verification code</string>
+	<string name="my">Ako</string>
+	<string name="find">Tuklasin</string>
+	<string name="Addressbook">Address book</string>
+	<string name="wechat">WeChat</string>
 
 </resources>

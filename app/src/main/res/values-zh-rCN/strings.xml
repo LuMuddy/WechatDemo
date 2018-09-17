@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">WechatDemo</string>
+	<string name="app_name">WECTADEMO</string>
 	<string name="login">登陆</string>
 	<string name="registry">注册</string>
 	<string name="language">语言</string>
@@ -34,5 +34,39 @@
 	<string name="Accountnumber">账号</string>
 	<string name="loginstatic">微信号/QQ号/邮箱登录</string>
 	<string name="pleaseloginstatic">请填写微信号/QQ号/邮箱</string>
+	<string name="getyzm">获取验证码</string>
+	<string name="pwdStatic">用密码登陆</string>
+	<string name="yzm">验证码</string>
+	<string name="inputyzm">请填写验证码</string>
+	<string name="my">我</string>
+	<string name="find">发现</string>
+	<string name="Addressbook">通讯录</string>
+	<string name="wechat">微信</string>
+	<string name="StartGroupChat">发起群聊</string>
+	<string name="Addfriends">添加朋友</string>
+	<string name="ScanIt">扫一扫</string>
+	<string name="ReceivePayment">收付款</string>
+	<string name="WechatAndMobile">微信号/手机号</string>
+	<string name="MyWechat">我的微信号：</string>
+	<string name="RadarPlusFriend">雷达加朋友</string>
+	<string name="AddFriendsAroundYou">添加身边的朋友</string>
+	<string name="FaceToFaceGroup">面对面建群</string>
+	<string name="EnterSameGroup">与身边的朋友进入同一个群聊</string>
+	<string name="ScanQRCode">扫描二维码名片</string>
+	<string name="PhoneContact">手机联系人</string>
+	<string name="AddFriendsContacts">添加通讯录中的朋友</string>
+	<string name="NoPublic">公众号</string>
+	<string name="GetInformation">获取更多资讯和服务</string>
+	<string name="EnterpriseWeChatContact">企业微信联系人</string>
+	<string name="SearchoWeChatMobile">通过手机号搜索企业微信用户</string>
+	<string name="CircleFriends">朋友圈</string>
+	<string name="shake">摇一摇</string>
+	<string name="TakeLook">看一看</string>
+	<string name="Search">搜一搜</string>
+	<string name="PeopleNearby">附近的人</string>
+	<string name="DriftingBottle">漂流瓶</string>
+	<string name="Shopping">购物</string>
+	<string name="game">游戏</string>
+	<string name="Applets">小程序</string>
 
 </resources>

@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">הקפאת חירום</string>
 	<string name="SecurityCenter">מרכז האבטחה של WeChat</string>
 	<string name="editphone">מלא את מספר הטלפון הנייד</string>
-	<string name="copyright">על ידי לחיצה על כפתור "הרשמה" לעיל, אתה מסכים רישיון התוכנה WeChat Tencent ואת הסכם השירות ואת הנחיות ההגנה על פרטיות Tencent.</string>
+	<string name="copyright">על ידי לחיצה על הלחצן "הירשם" למעלה, אתה מסכים</string>
 	<string name="protocolone">Tencent WeChat רשיון תוכנה הסכם שירות</string>
 	<string name="protocoltwo">מדריך הגנה על פרטיות Tencent</string>
 	<string name="and">ו</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">מספר חשבון</string>
 	<string name="loginstatic">מיקרו אות / מספר QQ / תיבת הדואר נכנס</string>
 	<string name="pleaseloginstatic">נא למלא את האות מיקרו / מספר QQ / תיבת הדואר</string>
+	<string name="getyzm">קבל קוד אימות</string>
+	<string name="pwdStatic">היכנס באמצעות סיסמה</string>
+	<string name="yzm">קוד אימות</string>
+	<string name="inputyzm">מלא את קוד האימות</string>
+	<string name="my">אני</string>
+	<string name="find">גלה</string>
+	<string name="Addressbook">פנקס כתובות</string>
+	<string name="wechat">WeChat</string>
 
 </resources>

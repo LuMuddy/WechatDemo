@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">Təcili dondurma</string>
 	<string name="SecurityCenter">WeChat Təhlükəsizlik Mərkəzi</string>
 	<string name="editphone">Mobil nömrənizi doldurun</string>
-	<string name="copyright">Yuxarıdakı "Qeydiyyat" düyməsinə tıklayarak, Tencent WeChat Software Lisenziya və Xidmət Konvensiyasını və Tencent Gizlilik Qorunma Təlimatlarını qəbul edirsiniz.</string>
+	<string name="copyright">Yuxarıdakı "Qeydiyyat" düyməsini tıklayaraq razılaşırsınız</string>
 	<string name="protocolone">Tencent WeChat Proqram Lisansı və Xidmət Konvensiyası</string>
 	<string name="protocoltwo">Tencent Gizlilik Qoruma Kılavuzu</string>
 	<string name="and">Və</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">Hesab nömrəsi</string>
 	<string name="loginstatic">Mikro siqnal / QQ nömrəsi / poçt qutusu giriş</string>
 	<string name="pleaseloginstatic">Mikro sinyali / QQ nömrəsini / poçt qutusunu doldurun</string>
+	<string name="getyzm">Doğrulama kodunu alın</string>
+	<string name="pwdStatic">Şifrə ilə daxil olun</string>
+	<string name="yzm">Doğrulama kodu</string>
+	<string name="inputyzm">Doğrulama kodunu doldurun</string>
+	<string name="my">Mənə</string>
+	<string name="find">Kəşf edin</string>
+	<string name="Addressbook">Ünvan kitab</string>
+	<string name="wechat">WeChat</string>
 
 </resources>

@@ -1,19 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Activity.Home.MainActivity">
 
-    <TextView
-        android:id="@+id/tv_test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="登陆成功"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_height"
+            android:background="@color/title" />
+    <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/title"
+           >
+
+        <TextView
+                android:id="@+id/title_bar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/wechat"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        <ImageView
+                android:id="@+id/iv_ear"
+                android:layout_width="15sp"
+                android:layout_height="15sp"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/title_bar_text"
+        />
+        <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+             />
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+              />
+
+    </RelativeLayout>
+
+
+    <RadioGroup
+            android:id="@+id/rg_tab_bar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:padding="3sp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+        <RadioButton
+                android:id="@+id/rb_wechat"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_order_management"
+                android:gravity="center"
+                android:paddingLeft="0sp"
+                android:text="@string/wechat"
+                android:checked="true"
+                android:textColor="@drawable/selector_tab_text_color"
+                android:layout_gravity="center"
+                android:textSize="10sp" />
+
+        <RadioButton
+                android:id="@+id/rb_address_book"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_commodity_management"
+                android:gravity="center"
+                android:paddingLeft="0sp"
+                android:text="@string/Addressbook"
+                android:textColor="@drawable/selector_tab_text_color"
+                android:textSize="10sp"
+                android:layout_gravity="center"
+        />
+
+        <RadioButton
+                android:id="@+id/rb_find"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_account_reconciliation"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:paddingLeft="0sp"
+                android:text="@string/find"
+                android:textColor="@drawable/selector_tab_text_color"
+                android:textSize="10sp"/>
+
+        <RadioButton
+                android:id="@+id/rb_my"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_my"
+                android:gravity="center"
+                android:paddingLeft="0sp"
+                android:layout_gravity="center"
+                android:text="@string/my"
+                android:textColor="@drawable/selector_tab_text_color"
+                android:textSize="10sp"/>
+    </RadioGroup>
+
+    <View
+            android:id="@+id/div_tab_bar"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_above="@id/rg_tab_bar"
+         />
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/div_tab_bar"
+            android:layout_below="@id/title_bar" />
+
+</RelativeLayout>
+</LinearLayout>

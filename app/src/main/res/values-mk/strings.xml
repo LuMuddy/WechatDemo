@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">Замрзнување во итни случаи</string>
 	<string name="SecurityCenter">WeChat центар за безбедност</string>
 	<string name="editphone">Ве молиме пополнете го мобилниот број</string>
-	<string name="copyright">Со кликнување на копчето "Регистрирај се" погоре, се согласувате со Tencent WeChat Лиценцата за лиценца и услуга и Tencent Прирачникот за заштита на приватноста.</string>
+	<string name="copyright">Со кликнување на копчето "Регистрирај се" погоре, се согласувате</string>
 	<string name="protocolone">Tencent WeChat Лиценца за софтвер и услуга</string>
 	<string name="protocoltwo">Tencent заштита на приватноста Водич</string>
 	<string name="and">И</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">Број на сметка</string>
 	<string name="loginstatic">Микро сигнал / QQ број / пошта најавување</string>
 	<string name="pleaseloginstatic">Ве молиме пополнете го микро сигналот / бројот на операција / поштенското сандаче</string>
+	<string name="getyzm">Земете верификационен код</string>
+	<string name="pwdStatic">Пријавете се со лозинка</string>
+	<string name="yzm">Код за верификација</string>
+	<string name="inputyzm">Ве молиме пополнете го кодот за верификација</string>
+	<string name="my">Јас</string>
+	<string name="find">Откријте</string>
+	<string name="Addressbook">Адресар</string>
+	<string name="wechat">WeChat</string>
 
 </resources>

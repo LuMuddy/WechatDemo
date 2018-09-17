@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">Nødfrysing</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Vennligst fyll inn mobilnummeret</string>
-	<string name="copyright">Ved å klikke på "Registrer" -knappen ovenfor, godtar du Tencent WeChat-programvarelisens og serviceavtale og Tencent retningslinjer for personvern.</string>
+	<string name="copyright">Ved å klikke på "Registrer" -knappen ovenfor, godtar du</string>
 	<string name="protocolone">Tencent WeChat Programvare Lisens og Serviceavtale</string>
 	<string name="protocoltwo">Tencent Privacy Protection Guide</string>
 	<string name="and">og</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">Kontonummer</string>
 	<string name="loginstatic">Micro signal / QQ nummer / postboks login</string>
 	<string name="pleaseloginstatic">Vennligst fyll inn mikrosignalet / QQ nummer / postkasse</string>
+	<string name="getyzm">Få bekreftelseskode</string>
+	<string name="pwdStatic">Logg inn med et passord</string>
+	<string name="yzm">Verifiseringskode</string>
+	<string name="inputyzm">Vennligst fyll inn bekreftelseskoden</string>
+	<string name="my">jeg</string>
+	<string name="find">Discovery</string>
+	<string name="Addressbook">Adressebok</string>
+	<string name="wechat">Micro brev</string>
 
 </resources>

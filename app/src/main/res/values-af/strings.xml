@@ -23,7 +23,7 @@
 	<string name="EmergencyFreeze">Noodvries</string>
 	<string name="SecurityCenter">WeChat Security Center</string>
 	<string name="editphone">Vul asseblief die selfoonnommer in</string>
-	<string name="copyright">Deur op die "Register" -knoppie hierbo te klik, stem jy in tot die Tencent WeChat-sagteware lisensie en diensooreenkoms en Tencent Privaatheidsbeskermriglyne.</string>
+	<string name="copyright">Deur op die "Register" knoppie hierbo te kliek, stem jy saam</string>
 	<string name="protocolone">Tencent WeChat sagteware lisensie en diens ooreenkoms</string>
 	<string name="protocoltwo">Tencent Privaatheidsbeskerming Gids</string>
 	<string name="and">en</string>
@@ -34,5 +34,13 @@
 	<string name="Accountnumber">Rekeningnommer</string>
 	<string name="loginstatic">Mikro sein / QQ nommer / posbus login</string>
 	<string name="pleaseloginstatic">Vul asseblief die mikrosein / QQ nommer / posbus in</string>
+	<string name="getyzm">Kry verifikasiekode</string>
+	<string name="pwdStatic">Teken in met \'n wagwoord</string>
+	<string name="yzm">Verifikasiekode</string>
+	<string name="inputyzm">Vul asseblief die verifikasiekode in</string>
+	<string name="my">Ek</string>
+	<string name="find">Discovery</string>
+	<string name="Addressbook">Adresboek</string>
+	<string name="wechat">mikro brief</string>
 
 </resources>

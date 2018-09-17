@@ -42,6 +42,6 @@ public class WelcomeActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
-        handler.sendEmptyMessageDelayed(1,1000*3);
+        handler.sendEmptyMessageDelayed(1,000*3);
     }
 }
