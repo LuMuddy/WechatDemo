@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Inżul</string>
+	<string name="registry">Reġistrazzjoni</string>
+	<string name="language">Lingwa</string>
+	<string name="language_setting">Multilingwi</string>
+	<string name="save">Ħlief</string>
+	<string name="cityphone">Iċ-Ċina (+86)</string>
+	<string name="citytext">Pajjiż</string>
+	<string name="phonelogin">In-numru ta \'login mobbli</string>
+	<string name="phoneregistry">Reġistrazzjoni ta \'numri mobbli</string>
+	<string name="phone">Numru tat-telefown ċellulari</string>
+	<string name="fillphone">Jekk jogħġbok imla n-numru tat-telefon</string>
+	<string name="fillpwd">Jekk jogħġbok imla l-password</string>
+	<string name="pwd">Password</string>
+	<string name="next">Il-pass li jmiss</string>
+	<string name="pleastwechatpwd">Jekk jogħġbok imla l-password WeChat</string>
+	<string name="loginStatic">Login b\'mikron sinjal / QQ numru / email</string>
+	<string name="smsStatic">Idħol bil-kodiċi tal-verifika SMS</string>
+	<string name="RetrievePassword">Irkupra l-password</string>
+	<string name="EmergencyFreeze">Iffriżar ta \'emerġenza</string>
+	<string name="SecurityCenter">WeChat Security Centre</string>
+	<string name="editphone">Jekk jogħġbok imla n-numru tal-mowbajl</string>
+	<string name="copyright">Billi tikklikkja fuq il-buttuna "Reġistru" t\'hawn fuq, taqbel</string>
+	<string name="protocolone">Tencent WeChat Software License and Service Agreement</string>
+	<string name="protocoltwo">Gwida għall-Protezzjoni ta \'Privatezza Tencent</string>
+	<string name="and">U</string>
+	<string name="nickname">Nickname</string>
+	<string name="registrytitle">Imla n-numru tat-telefon</string>
+	<string name="NicknameExample">Pereżempju: Chen Chen</string>
+	<string name="Choosecountry">Agħżel il-kodiċi tal-pajjiż</string>
+	<string name="Accountnumber">Numru tal-kont</string>
+	<string name="loginstatic">Sinjal mikro / numru QQ / login tal-mailbox</string>
+	<string name="pleaseloginstatic">Jekk jogħġbok imla s-sinjal mikro / numru QQ / kaxxa postali</string>
+	<string name="getyzm">Ikseb il-kodiċi tal-verifika</string>
+	<string name="pwdStatic">Log in bil-password</string>
+	<string name="yzm">Kodiċi ta \'verifika</string>
+	<string name="inputyzm">Jekk jogħġbok imla l-kodiċi tal-verifika</string>
+	<string name="my">Me</string>
+	<string name="find">Skopri</string>
+	<string name="Addressbook">Indirizz ktieb</string>
+	<string name="wechat">WeChat</string>
+
+</resources>

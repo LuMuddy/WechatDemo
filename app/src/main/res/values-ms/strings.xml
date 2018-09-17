@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Pendaratan</string>
+	<string name="registry">Pendaftaran</string>
+	<string name="language">Bahasa</string>
+	<string name="language_setting">Berbilang bahasa</string>
+	<string name="save">Simpan</string>
+	<string name="cityphone">China (+86)</string>
+	<string name="citytext">Negara</string>
+	<string name="phonelogin">Masuk nombor mudah alih</string>
+	<string name="phoneregistry">Pendaftaran nombor mudah alih</string>
+	<string name="phone">Nombor telefon mudah alih</string>
+	<string name="fillphone">Sila isikan nombor telefon</string>
+	<string name="fillpwd">Sila isikan kata laluan</string>
+	<string name="pwd">Kata laluan</string>
+	<string name="next">Langkah seterusnya</string>
+	<string name="pleastwechatpwd">Sila isikan kata laluan WeChat</string>
+	<string name="loginStatic">Log masuk dengan isyarat mikro / nombor QQ / e-mel</string>
+	<string name="smsStatic">Log masuk dengan kod pengesahan SMS</string>
+	<string name="RetrievePassword">Ambil kata laluan</string>
+	<string name="EmergencyFreeze">Pembekuan kecemasan</string>
+	<string name="SecurityCenter">Pusat Keselamatan WeChat</string>
+	<string name="editphone">Sila isikan nombor telefon bimbit</string>
+	<string name="copyright">Dengan mengklik butang "Daftar" di atas, anda bersetuju</string>
+	<string name="protocolone">Perjanjian Lesen dan Perkhidmatan Perisian Tencent WeChat</string>
+	<string name="protocoltwo">Panduan Perlindungan Privasi Tencent</string>
+	<string name="and">Dan</string>
+	<string name="nickname">Nama samaran</string>
+	<string name="registrytitle">Isikan nombor telefon</string>
+	<string name="NicknameExample">Sebagai contoh: Chen Chen</string>
+	<string name="Choosecountry">Pilih kod negara</string>
+	<string name="Accountnumber">Nombor akaun</string>
+	<string name="loginstatic">Masuk isyarat mikro / nombor QQ / peti mel</string>
+	<string name="pleaseloginstatic">Sila isi isyarat mikro / nombor QQ / peti mel</string>
+	<string name="getyzm">Dapatkan kod pengesahan</string>
+	<string name="pwdStatic">Log masuk dengan kata laluan</string>
+	<string name="yzm">Kod pengesahan</string>
+	<string name="inputyzm">Sila isikan kod pengesahan</string>
+	<string name="my">Saya</string>
+	<string name="find">Temui</string>
+	<string name="Addressbook">Buku alamat</string>
+	<string name="wechat">WeChat</string>
+
+</resources>

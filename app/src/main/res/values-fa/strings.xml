@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">فرود</string>
+	<string name="registry">ثبت نام</string>
+	<string name="language">زبان</string>
+	<string name="language_setting">چند زبانه</string>
+	<string name="save">ذخیره کنید</string>
+	<string name="cityphone">چین (+86)</string>
+	<string name="citytext">کشور</string>
+	<string name="phonelogin">ورود به سیستم شماره تلفن</string>
+	<string name="phoneregistry">ثبت نام شماره تلفن</string>
+	<string name="phone">شماره تلفن همراه</string>
+	<string name="fillphone">لطفا شماره تلفن را وارد کنید</string>
+	<string name="fillpwd">لطفا رمز عبور را پر کنید</string>
+	<string name="pwd">رمز عبور</string>
+	<string name="next">گام بعدی</string>
+	<string name="pleastwechatpwd">لطفا رمز عبور WeChat را وارد کنید</string>
+	<string name="loginStatic">ورود با میکرو سیگنال / شماره QQ / ایمیل</string>
+	<string name="smsStatic">با کد تأیید اس ام اس وارد شوید</string>
+	<string name="RetrievePassword">بازیابی رمز عبور</string>
+	<string name="EmergencyFreeze">بستن اضطراری</string>
+	<string name="SecurityCenter">مرکز امنیت WeChat</string>
+	<string name="editphone">لطفا شماره تلفن را پر کنید</string>
+	<string name="copyright">با کلیک بر روی دکمه "ثبت نام" بالا، شما موافقت می کنید</string>
+	<string name="protocolone">Tencent WeChat مجوز سرویس و توافقنامه خدمات</string>
+	<string name="protocoltwo">راهنمای حفظ حریم شخصی Tencent</string>
+	<string name="and">و</string>
+	<string name="nickname">نام کاربری</string>
+	<string name="registrytitle">شماره تلفن را پر کنید</string>
+	<string name="NicknameExample">به عنوان مثال: چن چن</string>
+	<string name="Choosecountry">کد کشور را انتخاب کنید</string>
+	<string name="Accountnumber">شماره حساب</string>
+	<string name="loginstatic">ورودی میکرو سیگنال / QQ / صندوق پستی</string>
+	<string name="pleaseloginstatic">لطفا شماره سیگنال / شماره QQ / صندوق پستی را وارد کنید</string>
+	<string name="getyzm">دریافت کد تأیید</string>
+	<string name="pwdStatic">با گذرواژه وارد شوید</string>
+	<string name="yzm">کد تأیید</string>
+	<string name="inputyzm">لطفا کد تأیید را پر کنید</string>
+	<string name="my">من</string>
+	<string name="find">کشف کنید</string>
+	<string name="Addressbook">کتاب آدرس</string>
+	<string name="wechat">WeChat</string>
+
+</resources>

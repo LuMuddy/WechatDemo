@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">pristálo</string>
+	<string name="registry">registrácia</string>
+	<string name="language">jazyk</string>
+	<string name="language_setting">Multi-language</string>
+	<string name="save">Uložiť</string>
+	<string name="cityphone">Čína (+86)</string>
+	<string name="citytext">Krajina / región</string>
+	<string name="phonelogin">Prihlásenie mobilného čísla</string>
+	<string name="phoneregistry">Registrácia mobilného čísla</string>
+	<string name="phone">Číslo mobilného telefónu</string>
+	<string name="fillphone">Vyplňte telefónne číslo</string>
+	<string name="fillpwd">Zadajte heslo</string>
+	<string name="pwd">heslo</string>
+	<string name="next">Ďalší krok</string>
+	<string name="pleastwechatpwd">Vyplňte prosím heslo WeChat</string>
+	<string name="loginStatic">Prihláste sa pomocou mikro signálu / čísla QQ / e-mailu</string>
+	<string name="smsStatic">Prihláste sa pomocou overovacieho kódu SMS</string>
+	<string name="RetrievePassword">Načítať heslo</string>
+	<string name="EmergencyFreeze">Núdzové zmrazenie</string>
+	<string name="SecurityCenter">WeChat Security Center</string>
+	<string name="editphone">Zadajte číslo mobilného telefónu</string>
+	<string name="copyright">Kliknutím na tlačidlo "Registrovať" vyššie súhlasíte</string>
+	<string name="protocolone">Zmluva o licencii a zmluve o poskytovaní služieb spoločnosti Tencent WeChat</string>
+	<string name="protocoltwo">Tencent Príručka ochrany osobných údajov</string>
+	<string name="and">a</string>
+	<string name="nickname">prezývka</string>
+	<string name="registrytitle">Vyplňte telefónne číslo</string>
+	<string name="NicknameExample">Napríklad: Chen Chen</string>
+	<string name="Choosecountry">Vyberte kód krajiny</string>
+	<string name="Accountnumber">Číslo účtu</string>
+	<string name="loginstatic">Mikro signál / QQ číslo / prihlásenie do schránky</string>
+	<string name="pleaseloginstatic">Vyplňte prosím číslo mikrofónu / QQ / poštovú schránku</string>
+	<string name="getyzm">Získajte verifikačný kód</string>
+	<string name="pwdStatic">Prihláste sa pomocou hesla</string>
+	<string name="yzm">Overovací kód</string>
+	<string name="inputyzm">Vyplňte verifikačný kód</string>
+	<string name="my">ja</string>
+	<string name="find">objav</string>
+	<string name="Addressbook">Adresár</string>
+	<string name="wechat">Micro písmeno</string>
+
+</resources>

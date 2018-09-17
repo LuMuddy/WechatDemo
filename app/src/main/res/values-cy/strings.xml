@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Tirio</string>
+	<string name="registry">Cofrestru</string>
+	<string name="language">Iaith</string>
+	<string name="language_setting">Amlieithog</string>
+	<string name="save">Arbed</string>
+	<string name="cityphone">Tsieina (+86)</string>
+	<string name="citytext">Gwlad</string>
+	<string name="phonelogin">Mewngofnodi rhif symudol</string>
+	<string name="phoneregistry">Cofrestru rhifau symudol</string>
+	<string name="phone">Rhif ffôn symudol</string>
+	<string name="fillphone">Llenwch y rhif ffôn</string>
+	<string name="fillpwd">Llenwch y cyfrinair</string>
+	<string name="pwd">Cyfrinair</string>
+	<string name="next">Y cam nesaf</string>
+	<string name="pleastwechatpwd">Llenwch y cyfrinair WeChat</string>
+	<string name="loginStatic">Mewngofnodi gyda micro signal / rhif QQ / e-bost</string>
+	<string name="smsStatic">Mewngofnodi gyda chôd dilysu SMS</string>
+	<string name="RetrievePassword">Adfer cyfrinair</string>
+	<string name="EmergencyFreeze">Rhewi mewn argyfwng</string>
+	<string name="SecurityCenter">Canolfan Ddiogelwch WeChat</string>
+	<string name="editphone">Llenwch y rhif symudol</string>
+	<string name="copyright">Trwy glicio ar y botwm "Cofrestru" uchod, rydych chi\'n cytuno</string>
+	<string name="protocolone">Trwydded Feddalwedd Tencent WeChat a Chytundeb Gwasanaeth</string>
+	<string name="protocoltwo">Tencent Protection Protection Guide</string>
+	<string name="and">Ac</string>
+	<string name="nickname">Ffugenw</string>
+	<string name="registrytitle">Llenwch y rhif ffôn</string>
+	<string name="NicknameExample">Er enghraifft: Chen Chen</string>
+	<string name="Choosecountry">Dewiswch god gwlad</string>
+	<string name="Accountnumber">Rhif cyfrif</string>
+	<string name="loginstatic">Mewngofnodi / rhif mewngofnodi QQ / blwch post</string>
+	<string name="pleaseloginstatic">Llenwch y micro-signal / rhif QQ / blwch post</string>
+	<string name="getyzm">Cael cod dilysu</string>
+	<string name="pwdStatic">Mewngofnodi gyda chyfrinair</string>
+	<string name="yzm">Cod gwirio</string>
+	<string name="inputyzm">Llenwch y cod dilysu</string>
+	<string name="my">Fi</string>
+	<string name="find">Darganfod</string>
+	<string name="Addressbook">Llyfr cyfeiriadau</string>
+	<string name="wechat">WeChat</string>
+
+</resources>

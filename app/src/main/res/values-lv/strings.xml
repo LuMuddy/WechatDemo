@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Nosēšanās</string>
+	<string name="registry">Reģistrācija</string>
+	<string name="language">Valoda</string>
+	<string name="language_setting">Daudzvalodu</string>
+	<string name="save">Saglabājiet</string>
+	<string name="cityphone">Ķīna (+86)</string>
+	<string name="citytext">Valsts</string>
+	<string name="phonelogin">Mobilā tālruņa numura pieteikšanās</string>
+	<string name="phoneregistry">Mobilā tālruņa numuru reģistrācija</string>
+	<string name="phone">Mobilā tālruņa numurs</string>
+	<string name="fillphone">Lūdzu, aizpildiet tālruņa numuru</string>
+	<string name="fillpwd">Lūdzu, aizpildiet paroli</string>
+	<string name="pwd">Parole</string>
+	<string name="next">Nākamais solis</string>
+	<string name="pleastwechatpwd">Lūdzu, aizpildiet WeChat paroli</string>
+	<string name="loginStatic">Pieteikšanās ar mikro signālu / QQ numuru / e-pastu</string>
+	<string name="smsStatic">Piesakieties ar īsziņas verifikācijas kodu</string>
+	<string name="RetrievePassword">Ielādēt paroli</string>
+	<string name="EmergencyFreeze">Avārijas iesaldēšana</string>
+	<string name="SecurityCenter">WeChat drošības centrs</string>
+	<string name="editphone">Lūdzu, aizpildiet mobilā tālruņa numuru</string>
+	<string name="copyright">Noklikšķinot uz pogas "Reģistrēties", jūs piekrītat</string>
+	<string name="protocolone">Tencent WeChat programmatūras licence un pakalpojumu līgums</string>
+	<string name="protocoltwo">Tencent Privātuma aizsardzības rokasgrāmata</string>
+	<string name="and">Un</string>
+	<string name="nickname">Iesauka</string>
+	<string name="registrytitle">Aizpildiet tālruņa numuru</string>
+	<string name="NicknameExample">Piemēram: Chen Chen</string>
+	<string name="Choosecountry">Atlasiet valsts kodu</string>
+	<string name="Accountnumber">Konta numurs</string>
+	<string name="loginstatic">Mikro signāls / QQ numurs / pastkastes pieslēgvieta</string>
+	<string name="pleaseloginstatic">Lūdzu, aizpildiet mikro-signālu / QQ numuru / pastkasti</string>
+	<string name="getyzm">Iegūstiet verifikācijas kodu</string>
+	<string name="pwdStatic">Piesakieties ar paroli</string>
+	<string name="yzm">Pārbaudes kods</string>
+	<string name="inputyzm">Lūdzu, aizpildiet verifikācijas kodu</string>
+	<string name="my">Mani</string>
+	<string name="find">Atklājiet</string>
+	<string name="Addressbook">Adrešu grāmata</string>
+	<string name="wechat">WeChat</string>
+
+</resources>

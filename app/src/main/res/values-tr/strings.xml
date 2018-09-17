@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">indi</string>
+	<string name="registry">kayıt</string>
+	<string name="language">dil</string>
+	<string name="language_setting">Çoklu dil</string>
+	<string name="save">Kaydet</string>
+	<string name="cityphone">Çin (+86)</string>
+	<string name="citytext">Ülke / Bölge</string>
+	<string name="phonelogin">Cep telefonu numarası girişi</string>
+	<string name="phoneregistry">Mobil telefon numarası kaydı</string>
+	<string name="phone">Cep telefonu numarası</string>
+	<string name="fillphone">Lütfen telefon numarasını giriniz</string>
+	<string name="fillpwd">Lütfen şifreyi giriniz</string>
+	<string name="pwd">şifre</string>
+	<string name="next">Bir sonraki adım</string>
+	<string name="pleastwechatpwd">Lütfen WeChat şifresini giriniz</string>
+	<string name="loginStatic">Mikro sinyal ile giriş / QQ numarası / e-posta</string>
+	<string name="smsStatic">SMS doğrulama koduyla giriş yapın</string>
+	<string name="RetrievePassword">Şifreyi al</string>
+	<string name="EmergencyFreeze">Acil durum dondurması</string>
+	<string name="SecurityCenter">WeChat Güvenlik Merkezi</string>
+	<string name="editphone">Lütfen cep telefonu numarasını giriniz</string>
+	<string name="copyright">Yukarıdaki "Kayıt" düğmesine tıklayarak katılıyorum</string>
+	<string name="protocolone">Tencent WeChat Yazılım Lisansı ve Hizmet Sözleşmesi</string>
+	<string name="protocoltwo">Tencent Gizlilik Koruma Kılavuzu</string>
+	<string name="and">ve</string>
+	<string name="nickname">rumuz</string>
+	<string name="registrytitle">Telefon numarasını doldurun</string>
+	<string name="NicknameExample">Örneğin: Chen Chen</string>
+	<string name="Choosecountry">Ülke kodunu seç</string>
+	<string name="Accountnumber">Hesap numarası</string>
+	<string name="loginstatic">Mikro sinyal / QQ numarası / posta kutusu girişi</string>
+	<string name="pleaseloginstatic">Lütfen mikro sinyali / QQ numarasını / posta kutusunu doldurun</string>
+	<string name="getyzm">Doğrulama kodunu al</string>
+	<string name="pwdStatic">Şifre ile giriş yap</string>
+	<string name="yzm">Doğrulama kodu</string>
+	<string name="inputyzm">Lütfen doğrulama kodunu doldurun</string>
+	<string name="my">ben</string>
+	<string name="find">keşif</string>
+	<string name="Addressbook">Adres defteri</string>
+	<string name="wechat">Mikro mektup</string>
+
+</resources>

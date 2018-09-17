@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">उतरा</string>
+	<string name="registry">पंजीकरण</string>
+	<string name="language">भाषा</string>
+	<string name="language_setting">बहु भाषा</string>
+	<string name="save">सहेजें</string>
+	<string name="cityphone">चीन (+86)</string>
+	<string name="citytext">देश / क्षेत्र</string>
+	<string name="phonelogin">मोबाइल नंबर लॉगिन</string>
+	<string name="phoneregistry">मोबाइल नंबर पंजीकरण</string>
+	<string name="phone">मोबाइल फोन नंबर</string>
+	<string name="fillphone">कृपया फोन नंबर भरें</string>
+	<string name="fillpwd">कृपया पासवर्ड भरें</string>
+	<string name="pwd">पासवर्ड</string>
+	<string name="next">अगला कदम</string>
+	<string name="pleastwechatpwd">कृपया वीचैट पासवर्ड भरें</string>
+	<string name="loginStatic">माइक्रो सिग्नल / क्यू क्यू संख्या / ईमेल के साथ लॉगिन करें</string>
+	<string name="smsStatic">एसएमएस सत्यापन कोड के साथ लॉग इन करें</string>
+	<string name="RetrievePassword">पासवर्ड पुनर्प्राप्त करें</string>
+	<string name="EmergencyFreeze">आपातकालीन फ्रीज</string>
+	<string name="SecurityCenter">WeChat सुरक्षा केंद्र</string>
+	<string name="editphone">कृपया मोबाइल नंबर भरें</string>
+	<string name="copyright">उपरोक्त "रजिस्टर" बटन पर क्लिक करके, आप सहमत हैं</string>
+	<string name="protocolone">Tencent WeChat सॉफ्टवेयर लाइसेंस और सेवा अनुबंध</string>
+	<string name="protocoltwo">Tencent गोपनीयता संरक्षण गाइड</string>
+	<string name="and">और</string>
+	<string name="nickname">उपनाम</string>
+	<string name="registrytitle">फोन नंबर भरें</string>
+	<string name="NicknameExample">उदाहरण के लिए: चेन चेन</string>
+	<string name="Choosecountry">देश कोड का चयन करें</string>
+	<string name="Accountnumber">खाता संख्या</string>
+	<string name="loginstatic">माइक्रो सिग्नल / क्यू क्यू संख्या / मेलबॉक्स लॉगिन</string>
+	<string name="pleaseloginstatic">कृपया माइक्रो सिग्नल / क्यू क्यू संख्या / मेलबॉक्स भरें</string>
+	<string name="getyzm">सत्यापन कोड प्राप्त करें</string>
+	<string name="pwdStatic">पासवर्ड से लॉग इन करें</string>
+	<string name="yzm">सत्यापन कोड</string>
+	<string name="inputyzm">कृपया सत्यापन कोड भरें</string>
+	<string name="my">मैं</string>
+	<string name="find">खोज</string>
+	<string name="Addressbook">पता पुस्तिका</string>
+	<string name="wechat">माइक्रो पत्र</string>
+
+</resources>

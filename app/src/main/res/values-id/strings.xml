@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Mendarat</string>
+	<string name="registry">Registrasi</string>
+	<string name="language">Bahasa</string>
+	<string name="language_setting">Multilingual</string>
+	<string name="save">Simpan</string>
+	<string name="cityphone">China (+86)</string>
+	<string name="citytext">Negara</string>
+	<string name="phonelogin">Login nomor ponsel</string>
+	<string name="phoneregistry">Pendaftaran nomor ponsel</string>
+	<string name="phone">Nomor ponsel</string>
+	<string name="fillphone">Harap isi nomor telepon</string>
+	<string name="fillpwd">Silakan isi kata sandinya</string>
+	<string name="pwd">Kata sandi</string>
+	<string name="next">Langkah selanjutnya</string>
+	<string name="pleastwechatpwd">Silakan isi kata sandi WeChat</string>
+	<string name="loginStatic">Login dengan sinyal mikro / nomor QQ / email</string>
+	<string name="smsStatic">Masuk dengan kode verifikasi SMS</string>
+	<string name="RetrievePassword">Ambil kata sandi</string>
+	<string name="EmergencyFreeze">Pembekuan darurat</string>
+	<string name="SecurityCenter">Pusat Keamanan WeChat</string>
+	<string name="editphone">Harap isi nomor ponsel</string>
+	<string name="copyright">Dengan mengklik tombol "Daftar" di atas, Anda setuju</string>
+	<string name="protocolone">Tencent WeChat Lisensi Perangkat Lunak dan Perjanjian Layanan</string>
+	<string name="protocoltwo">Panduan Perlindungan Privasi Tencent</string>
+	<string name="and">Dan</string>
+	<string name="nickname">Nama panggilan</string>
+	<string name="registrytitle">Isi nomor telepon</string>
+	<string name="NicknameExample">Misalnya: Chen Chen</string>
+	<string name="Choosecountry">Pilih kode negara</string>
+	<string name="Accountnumber">Nomor akun</string>
+	<string name="loginstatic">Sinyal mikro / nomor QQ / masuk kotak surat</string>
+	<string name="pleaseloginstatic">Silakan isi sinyal mikro / nomor QQ / kotak surat</string>
+	<string name="getyzm">Dapatkan kode verifikasi</string>
+	<string name="pwdStatic">Masuk dengan kata sandi</string>
+	<string name="yzm">Kode verifikasi</string>
+	<string name="inputyzm">Silakan isi kode verifikasi</string>
+	<string name="my">Saya</string>
+	<string name="find">Temukan</string>
+	<string name="Addressbook">Buku alamat</string>
+	<string name="wechat">WeChat</string>
+
+</resources>

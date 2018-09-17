@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WechatDemo</string>
+	<string name="login">Приземлення</string>
+	<string name="registry">Реєстрація</string>
+	<string name="language">Мова</string>
+	<string name="language_setting">Багатомовний</string>
+	<string name="save">Зберегти</string>
+	<string name="cityphone">Китай (+86)</string>
+	<string name="citytext">Країна</string>
+	<string name="phonelogin">Вхід для мобільного телефону</string>
+	<string name="phoneregistry">Реєстрація мобільного номера</string>
+	<string name="phone">Номер мобільного телефону</string>
+	<string name="fillphone">Будь ласка, введіть номер телефону</string>
+	<string name="fillpwd">Будь ласка, введіть пароль</string>
+	<string name="pwd">Пароль</string>
+	<string name="next">Наступний крок</string>
+	<string name="pleastwechatpwd">Будь ласка, введіть пароль WeChat</string>
+	<string name="loginStatic">Вхід за допомогою мікро сигналу / номер QQ / електронна пошта</string>
+	<string name="smsStatic">Увійдіть, використовуючи код підтвердження SMS</string>
+	<string name="RetrievePassword">Отримати пароль</string>
+	<string name="EmergencyFreeze">Аварійне заморожування</string>
+	<string name="SecurityCenter">Центр безпеки WeChat</string>
+	<string name="editphone">Будь ласка, введіть номер мобільного телефону</string>
+	<string name="copyright">Натиснувши кнопку "Зареєструватися" вище, ви погоджуєтесь</string>
+	<string name="protocolone">Tencent WeChat ліцензія на використання програмного забезпечення та сервісну угоду</string>
+	<string name="protocoltwo">Tencent Privacy Guide</string>
+	<string name="and">І</string>
+	<string name="nickname">Псевдонім</string>
+	<string name="registrytitle">Введіть номер телефону</string>
+	<string name="NicknameExample">Наприклад: Чень Чен</string>
+	<string name="Choosecountry">Виберіть код країни</string>
+	<string name="Accountnumber">Номер рахунку</string>
+	<string name="loginstatic">Мікро сигнали / QQ номер / поштова скринька логін</string>
+	<string name="pleaseloginstatic">Будь ласка, введіть мікросигнал / номер QQ / поштові скриньки</string>
+	<string name="getyzm">Отримати код підтвердження</string>
+	<string name="pwdStatic">Увійдіть, використовуючи пароль</string>
+	<string name="yzm">Код підтвердження</string>
+	<string name="inputyzm">Будь ласка, введіть код підтвердження</string>
+	<string name="my">Я</string>
+	<string name="find">Відкрийте для себе</string>
+	<string name="Addressbook">Адресна книга</string>
+	<string name="wechat">WeChat</string>
+
+</resources>
