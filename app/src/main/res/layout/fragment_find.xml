@@ -2,33 +2,8 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
-    <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/status_bar_height"
-            android:background="@color/titleblack"/>
 
-    <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/interval"
-            android:orientation="vertical">
-        <RelativeLayout
-                android:id="@+id/rl_head"
-                android:layout_width="match_parent"
-                android:layout_height="40sp"
-                android:background="@color/titleblack">
 
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/find"
-                    android:textColor="@color/white"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:textSize="15sp"
-            />
-
-        </RelativeLayout>
         <LinearLayout
                 android:layout_below="@+id/rl_head"
                 android:layout_width="match_parent"
@@ -368,6 +343,5 @@
 
             </RelativeLayout>
         </LinearLayout>
-    </RelativeLayout>
 
 </LinearLayout>
