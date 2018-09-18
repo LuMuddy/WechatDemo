@@ -66,5 +66,47 @@
     <string name="Shopping">购物</string>
     <string name="game">游戏</string>
     <string name="Applets">小程序</string>
+    <string name="WechatNum">微信号：</string>
+    <string name="wallet">钱包</string>
+    <string name="Authorization">收藏</string>
+    <string name="Album">相册</string>
+    <string name="CardPackage">卡包</string>
+    <string name="Expression">表情</string>
+    <string name="Setting">设置</string>
+    <string name="PersonalInformation">个人信息</string>
+    <string name="Avatar">头像</string>
+    <string name="name">名字</string>
+    <string name="Wechatnum">微信号</string>
+    <string name="MicroSignal">我的二维码</string>
+    <string name="More">更多</string>
+    <string name="MyAddress">我的地址</string>
+    <string name="cancel">取消</string>
+    <string name="CarryOut">完成</string>
+    <string name="SetName">设置名字</string>
+    <string name="PersonalAvatar">个人头像</string>
+    <string name="gender">性别</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="area">地区</string>
+    <string name="Signature">个性签名</string>
+    <string name="AddAddress">新增地址</string>
+    <string name="SetGender">设置性别</string>
+    <string name="SetSignature">设置个性签名</string>
+    <string name="thirty">30</string>
+    <string name="AddMy">扫一扫上面的二维码图案，加我微信</string>
+    <string name="breaks">返回</string>
+    <string name="SetAddress">设置地址</string>
+    <string name="Contact">联系人</string>
+    <string name="CellNumber">手机号码</string>
+    <string name="SelectRegion">选择地区</string>
+    <string name="AreaInformation">地区信息</string>
+    <string name="mobileNum">11位手机号</string>
+    <string name="DetailedAddress">详细地址</string>
+    <string name="StreetHouseInformation">街道门牌信息</string>
+    <string name="PostalCode">邮政编码</string>
+
+
+
+
 
 </resources>

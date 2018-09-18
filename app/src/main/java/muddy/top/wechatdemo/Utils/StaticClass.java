@@ -6,6 +6,8 @@ package muddy.top.wechatdemo.Utils;
  * @Describe 配置地址
  */
 public class StaticClass {
+    //Json数据（地址模拟）
+    public static final String ADDRESS_JSON = "[{addressName:'AAA',Address:'浙江省宁波',mobile:'13333333333',DetailedArea:'XX区XXX',dak:'315000'},{addressName:'BBB',Address:'浙江省宁波',mobile:'1333322222',DetailedArea:'XXXXX',dak:'3152000'}]";
     //语言字段
     public static final String LOCALE_LANGUAGE = "locale_language";
     //腾讯微信软件许可及服务协议url

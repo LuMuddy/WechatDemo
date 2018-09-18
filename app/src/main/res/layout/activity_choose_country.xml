@@ -46,6 +46,8 @@
             <ListView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/rl_head"></ListView>
+                android:layout_below="@+id/rl_head"
+                android:divider="@null"
+            ></ListView>
     </RelativeLayout>
 </LinearLayout>

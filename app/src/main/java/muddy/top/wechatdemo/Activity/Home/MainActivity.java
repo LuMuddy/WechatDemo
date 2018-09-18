@@ -14,7 +14,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import muddy.top.wechatdemo.Activity.Addressbook.AddFriendsActivity;
-import muddy.top.wechatdemo.Adapter.MyFragmentPagerAdapter;
+import muddy.top.wechatdemo.Adapter.Home.MyFragmentPagerAdapter;
 import muddy.top.wechatdemo.Application.BaseActivity;
 import muddy.top.wechatdemo.R;
 import muddy.top.wechatdemo.View.PopWindow;
@@ -188,6 +188,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
                         popWindow.showPopupWindow(findViewById(R.id.iv_add));
                     }else{//添加朋友
                     startActivity(new Intent(this, AddFriendsActivity.class));
+                        overridePendingTransition(R.anim.activity_anim_in_right,R.anim.activity_anim_out_left);
                     }
                     break;
             }

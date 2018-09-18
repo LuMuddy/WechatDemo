@@ -10,9 +10,9 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-import muddy.top.wechatdemo.Adapter.Language_settingAdapter;
+import muddy.top.wechatdemo.Adapter.Home.LanguageSettingAdapter;
 import muddy.top.wechatdemo.Application.BaseActivity;
-import muddy.top.wechatdemo.Eneity.Language_settingData;
+import muddy.top.wechatdemo.Eneity.Home.LanguageSettingData;
 import muddy.top.wechatdemo.R;
 import muddy.top.wechatdemo.Utils.LanguageUtils;
 import muddy.top.wechatdemo.Utils.ShareUtils;
@@ -23,8 +23,8 @@ public class LanguageSettingActivity extends BaseActivity implements View.OnClic
     private ImageView iv_back;
     private Button bt_save;
     private ListView lv_language;
-    private List<Language_settingData> mList = new ArrayList<>();
-    private Language_settingAdapter adapter;
+    private List<LanguageSettingData> mList = new ArrayList<>();
+    private LanguageSettingAdapter adapter;
     private String[] Language = new String[]{"auto","中文","中文繁体","英语"};
 
     @Override
@@ -51,7 +51,7 @@ public class LanguageSettingActivity extends BaseActivity implements View.OnClic
                         mList.get(i).setCheck(false);
                     }
                 }
-                Language_settingAdapter.ViewHolder viewHolder = (Language_settingAdapter.ViewHolder) view.getTag();
+                LanguageSettingAdapter.ViewHolder viewHolder = (LanguageSettingAdapter.ViewHolder) view.getTag();
                 // 改变CheckBox的状态
                 viewHolder.Cb_Check.toggle();
                 adapter.notifyDataSetChanged();
@@ -99,7 +99,7 @@ public class LanguageSettingActivity extends BaseActivity implements View.OnClic
         super.onResume();
         if (mList!=null){
             for(int i=0;i<Language.length;i++){
-                Language_settingData data = new Language_settingData();
+                LanguageSettingData data = new LanguageSettingData();
                 if (i==ShareUtils.getInt(this, StaticClass.LOCALE_LANGUAGE, 0)){
                     data.setCheck(true);
                 }else{
@@ -108,7 +108,7 @@ public class LanguageSettingActivity extends BaseActivity implements View.OnClic
                 data.setLanguage(Language[i]);
                 mList.add(data);
             }
-            adapter = new Language_settingAdapter(this, mList);
+            adapter = new LanguageSettingAdapter(this, mList);
             lv_language.setAdapter(adapter);
         }
     }

@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">WechatDemo</string>
-    <string name="login">Log in</string>
-    <string name="registry">Sign Up</string>
-    <string name="language">Language</string>
-    <string name="language_setting">Language</string>
-    <string name="save">save</string>
-</resources>

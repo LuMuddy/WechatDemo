@@ -33,4 +33,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.5'
     //dialog
     implementation('com.dou361.dialogui:jjdxm-dialogui:1.0.3') { exclude group: 'com.android.support' }
+    //左滑 https://github.com/hezihaog/SlideBackLayout
+    implementation 'com.hzh:slide-back-layout:1.0.3'
+    implementation 'org.json:json:20180813'
 }

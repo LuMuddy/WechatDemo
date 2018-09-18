@@ -63,6 +63,7 @@
                         android:background="@mipmap/ic_launcher"
                 />
                 <TextView
+                        android:layout_gravity="center"
                         android:layout_marginLeft="10sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -81,6 +82,7 @@
                         android:text="@string/MyWechat"
                 />
                 <ImageView
+                        android:id="@+id/iv_scan_code"
                         android:layout_marginLeft="20sp"
                         android:layout_width="20sp"
                         android:layout_height="20sp"

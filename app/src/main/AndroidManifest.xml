@@ -13,10 +13,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+
         <!-- 启动页 -->
         <activity android:name=".Activity.Welcome.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -28,16 +30,47 @@
         <activity android:name=".Activity.LoginRegistry.RegistryActivity"/>
         <!-- 主页 -->
         <activity android:name=".Activity.Home.MainActivity"/>
-        <!--选择国家和地区代码-->
+        <!-- 选择国家和地区代码 -->
         <activity android:name=".Activity.ChooseCountryActivity"/>
-        <!--登陆注册页-->
+        <!-- 登陆注册页 -->
         <activity android:name=".Activity.LoginRegistry.DisplayActivity"/>
-        <!--web浏览器-->
+        <!-- web浏览器 -->
         <activity android:name=".Activity.WebIntentactivity"/>
-        <!--手机号码登录-->
+        <!-- 手机号码登录 -->
         <activity android:name=".Activity.LoginRegistry.MoblieLoginActivity"/>
-        <!--添加朋友-->
-        <activity android:name=".Activity.Addressbook.AddFriendsActivity">
+        <!-- 添加朋友 -->
+        <activity android:name=".Activity.Addressbook.AddFriendsActivity"/>
+        <!-- 个人信息 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformationActivity"/>
+        <!-- 钱包 -->
+        <activity android:name=".Activity.My.Wallet.WalletActivity"/>
+        <!-- 收藏 -->
+        <activity android:name=".Activity.My.Collection.CollectionActivity"/>
+        <!-- 相册 -->
+        <activity android:name=".Activity.My.Album.AlbumActivity"/>
+        <!-- 卡包 -->
+        <activity android:name=".Activity.My.CardPackage.CardPackageActivity"/>
+        <!-- 表情 -->
+        <activity android:name=".Activity.My.Expression.ExpressionActivity"/>
+        <!-- 设置 -->
+        <activity android:name=".Activity.My.Setting.SettingActivity"/>
+        <!-- 头像设置 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.PersonalAvatarActivity"/>
+        <!-- 名字 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.NameSettingActivity"/>
+        <!-- 我的二维码 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.MyQrCodeActivity"/>
+        <!-- 更多 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.More.MoreActivity"/>
+        <!-- 我的地址 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.Address.MyAddressActivity"/>
+        <!-- 性别设置 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.More.GenderActivity"/>
+        <!-- 地区 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.More.AreaActivity"/>
+        <!-- 个性签名 -->
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.More.SignatureActivity"/>
+        <activity android:name=".Activity.My.PersonalInformation.PersonalInformation.Address.AddressEditActivity">
         </activity>
     </application>
 
