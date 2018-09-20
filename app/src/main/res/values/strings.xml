@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WechatDemo</string>
+    <string name="app_name">微信</string>
     <string name="login">登陆</string>
     <string name="registry">注册</string>
     <string name="language">语言</string>
@@ -104,9 +104,29 @@
     <string name="DetailedAddress">详细地址</string>
     <string name="StreetHouseInformation">街道门牌信息</string>
     <string name="PostalCode">邮政编码</string>
-
-
-
+    <string name="TakePhoto">拍照</string>
+    <string name="ChooseMobilePhotoAlbum">从手机相册选择</string>
+    <string name="ViewPreviousAvatar">查看上一张头像</string>
+    <string name="savePicture">保存图片</string>
+    <string name="search">搜索</string>
+    <string name="PictureVideos">图片与视频</string>
+    <string name="link">链接</string>
+    <string name="file">文件</string>
+    <string name="music">音乐</string>
+    <string name="chatRecord">聊天记录</string>
+    <string name="voice">语音</string>
+    <string name="notes">笔记</string>
+    <string name="position">位置</string>
+    <string name="AccountSecurity">账号与安全</string>
+    <string name="MessageNotification">新消息通知</string>
+    <string name="Privacy">隐私</string>
+    <string name="GeneralPurpose">通用</string>
+    <string name="HelpFeedback">帮助与反馈</string>
+    <string name="AboutWeChat">关于微信</string>
+    <string name="VersionNumber">版本号6.7.2</string>
+    <string name="Plugin">插件</string>
+    <string name="SwitchAccount">切换账号</string>
+    <string name="AignOut">退出登陆</string>
 
 
 </resources>

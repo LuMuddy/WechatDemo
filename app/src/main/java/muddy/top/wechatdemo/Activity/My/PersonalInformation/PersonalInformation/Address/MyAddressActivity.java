@@ -54,7 +54,6 @@ public class MyAddressActivity extends BaseActivity implements View.OnClickListe
                 data.setMobile(String.valueOf(json.get("mobile")));
                 data.setDetailedArea(String.valueOf(json.get("DetailedArea")));
                 data.setDak(String.valueOf(json.get("dak")));
-                L.i(String.valueOf(json.get("dak"))+"dak-----------");
                 mList.add(data);
             }
             adapter = new AddressAdapter(this, mList);
